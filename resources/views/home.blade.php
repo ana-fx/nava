@@ -1,51 +1,43 @@
 <x-layouts.app title="Company Profile - Nava">
     <!-- Hero Section -->
-    <section class="relative py-24 lg:py-32 px-6 lg:px-8 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a]">
-        <!-- Animated Background Pattern -->
-        <div class="absolute inset-0 opacity-30 dark:opacity-10">
-            <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 2px 2px, rgba(27,27,24,0.15) 1px, transparent 0); background-size: 40px 40px;"></div>
-        </div>
-        
-        <!-- Geometric Shapes -->
-        <div class="absolute top-20 right-10 w-32 h-32 border-2 border-[#1b1b18]/5 dark:border-white/5 rounded-2xl rotate-45 animate-pulse" style="animation-delay: 0.5s;"></div>
-        <div class="absolute bottom-20 left-10 w-24 h-24 border-2 border-[#1b1b18]/5 dark:border-white/5 rounded-full animate-pulse" style="animation-delay: 1.5s;"></div>
-
+    <section class="relative pb-12 lg:pb-16 pt-0 px-6 lg:px-8 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-[73px]">
         <div class="container mx-auto max-w-7xl relative z-10">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <!-- Text Content -->
                 <div data-aos="fade-up" data-aos-delay="100">
                     <!-- Badge -->
-                    <div class="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-[#1b1b18]/5 dark:bg-white/5 backdrop-blur-sm border border-[#1b1b18]/10 dark:border-white/10 rounded-full" data-aos="fade-up" data-aos-delay="50">
-                        <span class="w-2 h-2 bg-[#1b1b18] dark:bg-[#EDEDEC] rounded-full animate-pulse"></span>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 mb-4 bg-[#1b1b18]/5 dark:bg-white/5 backdrop-blur-sm border border-[#1b1b18]/10 dark:border-white/10" data-aos="fade-up" data-aos-delay="50">
+                        <span class="w-2 h-2 bg-[#1b1b18] dark:bg-[#EDEDEC] animate-pulse"></span>
                         <span class="text-sm font-medium text-[#706f6c] dark:text-[#A1A09A]">Innovation in Technology</span>
                     </div>
 
-                    <h1 class="text-5xl lg:text-7xl font-bold mb-6 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
+                    <h1 class="text-4xl lg:text-5xl font-bold mb-4 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
                         Building the Future with
                         <span class="block mt-2 text-[#1b1b18] dark:text-[#EDEDEC]">
                             Cutting-Edge Solutions
                         </span>
                     </h1>
-                    
-                    <p class="text-xl lg:text-2xl text-[#706f6c] dark:text-[#A1A09A] mb-10 leading-relaxed max-w-xl" data-aos="fade-up" data-aos-delay="150">
+
+                    <p class="text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-6 leading-relaxed max-w-xl" data-aos="fade-up" data-aos-delay="150">
                         We are a company committed to providing the best solutions with cutting-edge technology and high-quality services.
                     </p>
 
                     <!-- CTA Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 mb-12" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#about" class="group relative px-8 py-4 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] rounded-2xl hover:bg-black dark:hover:bg-white transition-all duration-300 text-center font-medium shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#about" class="group relative px-6 py-3 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white transition-all duration-300 text-center text-sm font-medium shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
                             <span class="relative z-10 flex items-center justify-center gap-2">
                                 Learn More
                                 <i class="fi fi-rr-arrow-right text-sm group-hover:translate-x-1 transition-transform"></i>
                             </span>
                         </a>
-                        <a href="#contact" class="px-8 py-4 border-2 border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18]/40 dark:hover:border-white/40 rounded-2xl transition-all duration-300 text-center font-medium backdrop-blur-sm bg-white/50 dark:bg-[#0a0a0a]/50 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
+                        <a href="#contact" class="px-6 py-3 border-2 border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18]/40 dark:hover:border-white/40 transition-all duration-300 text-center text-sm font-medium backdrop-blur-sm bg-white/50 dark:bg-[#0a0a0a]/50 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
                             Contact Us
                         </a>
                     </div>
 
                     <!-- Stats -->
-                    <div class="grid grid-cols-3 gap-6 pt-8 border-t-2 border-[#1b1b18]/10 dark:border-white/10" data-aos="fade-up" data-aos-delay="250">
+                    <div class="pt-8 px-4 border-t-2 border-[#1b1b18]/10 dark:border-white/10" data-aos="fade-up" data-aos-delay="250">
+                        <div class="grid grid-cols-3 gap-4">
                         <div class="group hover:scale-105 transition-transform duration-300 cursor-default">
                             <div class="text-3xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-1 group-hover:text-black dark:group-hover:text-white transition-colors">500+</div>
                             <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Projects</div>
@@ -57,6 +49,7 @@
                         <div class="group hover:scale-105 transition-transform duration-300 cursor-default" data-aos="fade-up" data-aos-delay="350">
                             <div class="text-3xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-1 group-hover:text-black dark:group-hover:text-white transition-colors">10+</div>
                             <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Years</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,20 +57,20 @@
                 <!-- Image Content -->
                 <div class="relative" data-aos="fade-left" data-aos-delay="200">
                     <div class="relative">
-                        <!-- Main Image with Modern Border -->
-                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 dark:border-white/5">
+                        <!-- Main Image -->
+                        <div class="relative overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80"
+                                src="https://unsplash.com/photos/Kj2SaNHG-hg/download?w=800&h=600&fit=crop&q=80"
                                 alt="Modern technology and innovation"
-                                class="w-full h-auto object-cover"
+                                class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
                                 loading="lazy"
                             >
                         </div>
 
                         <!-- Floating Card 1 -->
-                        <div class="absolute -bottom-6 -left-6 bg-white/90 dark:bg-[#161615]/90 backdrop-blur-md rounded-2xl p-4 shadow-2xl border-2 border-[#1b1b18]/10 dark:border-white/10 hover:border-[#1b1b18]/30 dark:hover:border-white/30 hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] hover:scale-105 transition-all duration-300 cursor-pointer" data-aos="fade-up" data-aos-delay="300">
+                        <div class="absolute -bottom-6 -left-6 bg-white/90 dark:bg-[#161615]/90 backdrop-blur-md p-4 shadow-2xl border-2 border-[#1b1b18]/10 dark:border-white/10 hover:border-[#1b1b18]/30 dark:hover:border-white/30 hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] hover:scale-105 transition-all duration-300 cursor-pointer" data-aos="fade-up" data-aos-delay="300">
                             <div class="flex items-center gap-3">
-                                <div class="w-14 h-14 bg-[#1b1b18] dark:bg-[#eeeeec] rounded-xl flex items-center justify-center border-2 border-[#1b1b18]/20 dark:border-white/20 shadow-lg ring-2 ring-[#1b1b18]/5 dark:ring-white/5">
+                                <div class="w-14 h-14 bg-[#1b1b18] dark:bg-[#eeeeec] flex items-center justify-center border-2 border-[#1b1b18]/20 dark:border-white/20 shadow-lg ring-2 ring-[#1b1b18]/5 dark:ring-white/5">
                                     <i class="fi fi-ts-laptop-code text-white dark:text-[#1C1C1A] text-xl"></i>
                                 </div>
                                 <div>
@@ -88,9 +81,9 @@
                         </div>
 
                         <!-- Floating Card 2 -->
-                        <div class="absolute -top-6 -right-6 bg-white/90 dark:bg-[#161615]/90 backdrop-blur-md rounded-2xl p-4 shadow-2xl border-2 border-[#1b1b18]/10 dark:border-white/10 hover:border-[#1b1b18]/30 dark:hover:border-white/30 hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] hover:scale-105 transition-all duration-300 cursor-pointer" data-aos="fade-up" data-aos-delay="350">
+                        <div class="absolute -top-6 -right-6 bg-white/90 dark:bg-[#161615]/90 backdrop-blur-md p-4 shadow-2xl border-2 border-[#1b1b18]/10 dark:border-white/10 hover:border-[#1b1b18]/30 dark:hover:border-white/30 hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] hover:scale-105 transition-all duration-300 cursor-pointer" data-aos="fade-up" data-aos-delay="350">
                             <div class="flex items-center gap-3">
-                                <div class="w-14 h-14 bg-[#1b1b18] dark:bg-[#eeeeec] rounded-xl flex items-center justify-center border-2 border-[#1b1b18]/20 dark:border-white/20 shadow-lg ring-2 ring-[#1b1b18]/5 dark:ring-white/5">
+                                <div class="w-14 h-14 bg-[#1b1b18] dark:bg-[#eeeeec] flex items-center justify-center border-2 border-[#1b1b18]/20 dark:border-white/20 shadow-lg ring-2 ring-[#1b1b18]/5 dark:ring-white/5">
                                     <i class="fi fi-tr-user-headset text-white dark:text-[#1C1C1A] text-xl"></i>
                                 </div>
                                 <div>
@@ -100,17 +93,109 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <!-- Decorative Elements -->
-                    <div class="absolute -z-10 -bottom-12 -right-12 w-72 h-72 bg-[#1b1b18]/5 dark:bg-white/5 rounded-full blur-3xl animate-pulse"></div>
-                    <div class="absolute -z-10 -top-12 -left-12 w-56 h-56 bg-[#1b1b18]/5 dark:bg-white/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+    <!-- Tech Stack Section -->
+    <section class="pt-6 pb-12 px-8 lg:px-12 bg-white dark:bg-[#161615] border-y border-[#e3e3e0] dark:border-[#3E3E3A] overflow-visible" style="transform: skewY(-2deg);">
+        <div class="container mx-auto max-w-7xl">
+            <div class="overflow-hidden">
+                <div class="flex items-center gap-10 animate-scroll">
+                    <!-- Tech Stack Items -->
+                    <div class="flex items-center gap-10 min-w-max">
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg" alt="MongoDB" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">MongoDB</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
+                        </div>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="flex items-center gap-10 min-w-max">
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg" alt="MongoDB" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">MongoDB</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
+    <section id="about" class="pt-12 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
         <div class="container mx-auto max-w-7xl">
             <h2 class="text-3xl lg:text-4xl font-semibold mb-12 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
                 About Us
@@ -140,7 +225,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div>
                         <h3 class="text-xl font-semibold mb-4 text-[#1b1b18] dark:text-[#EDEDEC]">
                             Our Team
@@ -164,7 +249,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <!-- Image Content -->
                 <div class="relative" data-aos="fade-left" data-aos-delay="200">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18]/30 dark:hover:border-white/30 hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] transition-all duration-300 ring-2 ring-[#1b1b18]/5 dark:ring-white/5">
