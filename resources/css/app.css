@@ -73,20 +73,21 @@ select:focus[data-flux-control] {
 /* Tech Stack Scroll Animation */
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translate3d(-33.333%, 0, 0);
     }
 }
 
 .animate-scroll {
-    animation: scroll 30s linear infinite;
+    /* Animation handled by JavaScript for seamless loop */
+    will-change: transform;
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 
-.animate-scroll:hover {
-    animation-play-state: paused;
-}
+/* Hover pause handled by JavaScript */
 
 /* Tech Stack Logo Hover Effect */
 .tech-logo {

@@ -75,6 +75,139 @@
                     behavior: 'smooth'
                 });
             });
+
+            // Seamless Tech Stack Animation
+            (function() {
+                const scrollContainer = document.querySelector('.animate-scroll');
+                if (!scrollContainer) return;
+
+                let position = 0;
+                let isPaused = false;
+                const speed = 0.5; // pixels per frame
+                
+                // Wait for DOM to be fully loaded
+                setTimeout(() => {
+                    const firstSet = scrollContainer.querySelector('.min-w-max');
+                    if (!firstSet) return;
+                    
+                    const itemWidth = firstSet.offsetWidth;
+                    const resetPoint = itemWidth; // Reset after completing first set
+
+                    function animate() {
+                        if (!isPaused) {
+                            position += speed;
+                            
+                            // Reset position seamlessly when first set is complete
+                            // Since we have 3 identical sets, resetting at first set width is seamless
+                            if (position >= resetPoint) {
+                                position = 0;
+                            }
+                            
+                            scrollContainer.style.transform = `translate3d(-${position}px, 0, 0)`;
+                        }
+                        
+                        requestAnimationFrame(animate);
+                    }
+
+                    // Pause on hover
+                    scrollContainer.addEventListener('mouseenter', () => {
+                        isPaused = true;
+                    });
+
+                    scrollContainer.addEventListener('mouseleave', () => {
+                        isPaused = false;
+                    });
+
+                    // Start animation
+                    animate();
+                }, 100);
+            })();
+
+            // Function to set equal height for all tab contents
+            function setEqualTabHeights() {
+                const container = document.getElementById('tab-content-container');
+                if (!container) return;
+
+                const tabContents = document.querySelectorAll('.tab-content');
+                if (tabContents.length === 0) return;
+
+                let maxHeight = 0;
+                
+                // Temporarily show all tabs to measure their heights
+                tabContents.forEach(content => {
+                    const wasHidden = content.classList.contains('hidden');
+                    const originalPosition = content.style.position;
+                    const originalVisibility = content.style.visibility;
+                    const originalOpacity = content.style.opacity;
+                    
+                    // Make visible for measurement
+                    content.classList.remove('hidden');
+                    content.style.position = 'relative';
+                    content.style.visibility = 'visible';
+                    content.style.opacity = '1';
+                    
+                    // Force reflow
+                    void content.offsetHeight;
+                    
+                    const height = content.scrollHeight;
+                    if (height > maxHeight) {
+                        maxHeight = height;
+                    }
+                    
+                    // Restore original state
+                    if (wasHidden) {
+                        content.classList.add('hidden');
+                    }
+                    content.style.position = 'absolute';
+                    content.style.visibility = '';
+                    content.style.opacity = '';
+                });
+
+                // Apply max height to container
+                if (maxHeight > 0) {
+                    container.style.minHeight = maxHeight + 'px';
+                }
+            }
+
+            // Tab Switching Function
+            function switchTab(tabName) {
+                // Hide all tab contents
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.add('hidden');
+                });
+
+                // Remove active state from all tabs
+                document.querySelectorAll('.tab-button').forEach(button => {
+                    button.classList.remove('text-[#1b1b18]', 'dark:text-[#EDEDEC]', 'border-[#1b1b18]', 'dark:border-white');
+                    button.classList.add('text-[#706f6c]', 'dark:text-[#A1A09A]', 'border-transparent');
+                });
+
+                // Show selected tab content
+                const content = document.getElementById(`content-${tabName}`);
+                if (content) {
+                    content.classList.remove('hidden');
+                }
+
+                // Add active state to selected tab
+                const tabButton = document.getElementById(`tab-${tabName}`);
+                if (tabButton) {
+                    tabButton.classList.remove('text-[#706f6c]', 'dark:text-[#A1A09A]', 'border-transparent');
+                    tabButton.classList.add('text-[#1b1b18]', 'dark:text-[#EDEDEC]', 'border-[#1b1b18]', 'dark:border-white');
+                }
+            }
+
+            // Set equal heights on page load and window resize
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', () => {
+                    setTimeout(setEqualTabHeights, 200);
+                });
+            } else {
+                setTimeout(setEqualTabHeights, 200);
+            }
+            
+            window.addEventListener('resize', () => {
+                setEqualTabHeights();
+            });
         </script>
     </body>
 </html>
