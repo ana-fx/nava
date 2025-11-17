@@ -361,70 +361,141 @@
         </div>
     </section>
 
+    <!-- Divider -->
+    <div class="border-t border-[#e3e3e0] dark:border-[#3E3E3A]"></div>
+
     <!-- Stats Section -->
-    <section class="py-16 lg:py-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
+    <section class="relative pt-20 lg:pt-24 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
         <div class="container mx-auto max-w-7xl">
-            <div class="grid grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
-                <div class="group relative text-center p-6 sm:p-8 lg:p-10 border-l-2 border-[#1b1b18] dark:border-white hover:border-[#1b1b18] dark:hover:border-white transition-colors duration-300 cursor-default" data-aos="fade-up" data-aos-delay="100">
-                    <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">50+</div>
-                    <div class="text-sm sm:text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] font-medium">Clients</div>
-                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bg-[#1b1b18] dark:bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <h2 class="text-3xl lg:text-4xl font-semibold mb-16 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
+                Our Achievements
+            </h2>
+            <div class="grid grid-cols-3 gap-8 lg:gap-16">
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">50+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Clients</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Satisfied worldwide</div>
                 </div>
 
-                <div class="group relative text-center p-6 sm:p-8 lg:p-10 border-l-2 border-[#1b1b18] dark:border-white hover:border-[#1b1b18] dark:hover:border-white transition-colors duration-300 cursor-default" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">15+</div>
-                    <div class="text-sm sm:text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] font-medium">Team</div>
-                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bg-[#1b1b18] dark:bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">15+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Team</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Expert professionals</div>
                 </div>
 
-                <div class="group relative text-center p-6 sm:p-8 lg:p-10 border-l-2 border-[#1b1b18] dark:border-white hover:border-[#1b1b18] dark:hover:border-white transition-colors duration-300 cursor-default" data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-3 group-hover:scale-110 transition-transform duration-300 inline-block">3+</div>
-                    <div class="text-sm sm:text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] font-medium">Years</div>
-                    <div class="absolute left-0 top-0 bottom-0 w-0.5 bg-[#1b1b18] dark:bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">3+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Years</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Of experience</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="py-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
+    <section class="relative pt-20 lg:pt-24 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
         <div class="container mx-auto max-w-7xl">
-            <h2 class="text-2xl lg:text-3xl xl:text-4xl font-semibold mb-8 lg:mb-12 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
+            <h2 class="text-3xl lg:text-4xl font-semibold mb-16 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
                 Our Services
             </h2>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
-                <div class="p-4 lg:p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A]" data-aos="fade-up" data-aos-delay="100">
-                    <div class="mb-3 lg:mb-4 w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center text-[#1b1b18] dark:text-[#EDEDEC]">
-                        <i class="fi fi-ts-laptop-code text-3xl lg:text-4xl"></i>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:gap-10">
+                <div class="group p-8 lg:p-10 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mb-6 w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300">
+                        <i class="fi fi-ts-laptop-code text-4xl lg:text-5xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
                     </div>
-                    <h3 class="text-lg lg:text-xl font-semibold mb-2 text-[#1b1b18] dark:text-[#EDEDEC]">
+                    <h3 class="text-xl lg:text-2xl font-semibold mb-3 text-[#1b1b18] dark:text-[#EDEDEC]">
                         Software Development
                     </h3>
-                    <p class="text-xs lg:text-sm text-[#706f6c] dark:text-[#A1A09A]">
+                    <p class="text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] leading-relaxed">
                         Custom application development services tailored to your business needs.
                     </p>
                 </div>
-                <div class="p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A]" data-aos="fade-up" data-aos-delay="200">
-                    <div class="mb-4 w-12 h-12 flex items-center justify-center text-[#1b1b18] dark:text-[#EDEDEC]">
-                        <i class="fi fi-tr-review text-4xl"></i>
+                <div class="group p-8 lg:p-10 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mb-6 w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300">
+                        <i class="fi fi-ts-handshake text-4xl lg:text-5xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-2 text-[#1b1b18] dark:text-[#EDEDEC]">
+                    <h3 class="text-xl lg:text-2xl font-semibold mb-3 text-[#1b1b18] dark:text-[#EDEDEC]">
                         Technology Consulting
                     </h3>
-                    <p class="text-sm text-[#706f6c] dark:text-[#A1A09A]">
+                    <p class="text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] leading-relaxed">
                         Strategic consulting for your company's digital transformation.
                     </p>
                 </div>
-                <div class="p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A]" data-aos="fade-up" data-aos-delay="300">
-                    <div class="mb-4 w-12 h-12 flex items-center justify-center text-[#1b1b18] dark:text-[#EDEDEC]">
-                        <i class="fi fi-tr-user-headset text-4xl"></i>
+                <div class="group p-8 lg:p-10 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="mb-6 w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300">
+                        <i class="fi fi-ts-tools text-4xl lg:text-5xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-2 text-[#1b1b18] dark:text-[#EDEDEC]">
+                    <h3 class="text-xl lg:text-2xl font-semibold mb-3 text-[#1b1b18] dark:text-[#EDEDEC]">
                         Support & Maintenance
                     </h3>
-                    <p class="text-sm text-[#706f6c] dark:text-[#A1A09A]">
+                    <p class="text-base lg:text-lg text-[#706f6c] dark:text-[#A1A09A] leading-relaxed">
                         Reliable technical support and system maintenance services.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Last Project Section -->
+    <section class="relative pt-24 lg:pt-32 pb-24 lg:pb-32 px-6 lg:px-8 bg-[#FDFDFC] dark:bg-[#0a0a0a]">
+        <div class="container mx-auto max-w-7xl">
+            <h2 class="text-3xl lg:text-4xl font-semibold mb-20 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
+                Last Project
+            </h2>
+
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center" data-aos="fade-up" data-aos-delay="100">
+                <!-- Project Image / Website Preview -->
+                <div class="order-2 lg:order-1">
+                    <div class="relative overflow-hidden bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] aspect-[3/4]">
+                        <iframe
+                            src="https://pandalungan.online/"
+                            class="w-full h-full scale-75 origin-top-left"
+                            style="width: 133.33%; height: 133.33%; transform: scale(0.75); transform-origin: top left;"
+                            frameborder="0"
+                            scrolling="no"
+                            loading="lazy"
+                            title="Pandalungan Festival Website Preview"
+                            allow="fullscreen"
+                        ></iframe>
+                    </div>
+                </div>
+
+                <!-- Project Details -->
+                <div class="order-1 lg:order-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-[#1b1b18]/5 dark:bg-white/5 backdrop-blur-sm border border-[#1b1b18]/10 dark:border-white/10">
+                        <span class="text-sm font-medium text-[#706f6c] dark:text-[#A1A09A]">Latest Work</span>
+                    </div>
+
+                    <h3 class="text-3xl lg:text-4xl font-bold mb-8 text-[#1b1b18] dark:text-[#EDEDEC]">
+                        Modern Web Application
+                    </h3>
+
+                    <p class="text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-10 leading-relaxed">
+                        A cutting-edge web application built with modern technologies, delivering exceptional user experience and performance. This project showcases our expertise in full-stack development and innovative solutions.
+                    </p>
+
+                    <!-- Tech Stack Used -->
+                    <div class="mb-10">
+                        <h4 class="text-base font-semibold mb-5 text-[#1b1b18] dark:text-[#EDEDEC] uppercase tracking-wide">Technologies Used</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">Laravel</span>
+                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">Vue.js</span>
+                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">PostgreSQL</span>
+                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">AWS</span>
+                        </div>
+                    </div>
+
+                    <!-- View Project Button -->
+                    <a
+                        href="#"
+                        class="inline-flex items-center gap-2 px-6 py-3 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white transition-all duration-300 font-medium shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20"
+                    >
+                        <span>View Project</span>
+                        <i class="fi fi-rr-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>

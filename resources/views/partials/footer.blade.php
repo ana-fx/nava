@@ -4,13 +4,12 @@
         <div class="py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Company Info -->
             <div class="md:col-span-2" data-aos="fade-up" data-aos-delay="100">
-                <div class="flex items-center gap-3 mb-4">
+                <div class="mb-4">
                     <img 
-                        src="/logo-white.svg" 
+                        src="/logo-long-white.png" 
                         alt="Nava Logo" 
-                        class="h-10 w-10"
+                        class="h-8"
                     >
-                    <h3 class="text-xl font-semibold text-white">Nava</h3>
                 </div>
                 <p class="text-sm text-gray-400 mb-4 max-w-md">
                     We are a company committed to providing the best solutions with cutting-edge technology and high-quality services.
