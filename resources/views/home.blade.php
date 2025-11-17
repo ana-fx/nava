@@ -32,7 +32,7 @@
                         </a>
                         <a href="#contact" class="group relative px-6 py-3 border-2 border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18]/40 dark:hover:border-white/40 transition-all duration-300 text-center text-sm font-medium backdrop-blur-sm bg-white/50 dark:bg-[#0a0a0a]/50 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
                             <span class="relative z-10 flex items-center justify-center gap-2">
-                                Contact Us
+                            Contact Us
                                 <i class="fi fi-rr-envelope text-sm group-hover:translate-x-1 transition-transform"></i>
                             </span>
                         </a>
@@ -76,133 +76,6 @@
                                     <div class="text-[10px] lg:text-xs text-[#706f6c] dark:text-[#A1A09A]">Always Here</div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tech Stack Section -->
-    <section class="relative -mt-12 sm:-mt-16 lg:-mt-20 -mb-12 sm:-mb-16 lg:-mb-20 pt-6 pb-6 lg:pt-8 lg:pb-8 bg-white dark:bg-[#161615] border-y border-[#e3e3e0] dark:border-[#3E3E3A] overflow-visible z-30" style="transform: skewY(-2deg);">
-        <div class="container mx-auto max-w-7xl px-4 sm:px-8 lg:px-12">
-            <div class="overflow-hidden -mx-4 sm:-mx-8 lg:-mx-12">
-                <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 animate-scroll px-4 sm:px-8 lg:px-12">
-                    <!-- Tech Stack Items -->
-                    <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 min-w-max">
-                        <div class="flex items-center gap-2 sm:gap-3 lg:gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
-                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
-                        </div>
-                    </div>
-                    <!-- Duplicate for seamless loop -->
-                    <div class="flex items-center gap-10 min-w-max">
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
-                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
-                        </div>
-                    </div>
-                    <!-- Third duplicate for extra seamless loop -->
-                    <div class="flex items-center gap-10 min-w-max">
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
-                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
-                        </div>
-                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
-                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
                         </div>
                     </div>
                 </div>
@@ -361,40 +234,6 @@
         </div>
     </section>
 
-    <!-- Divider -->
-    <div class="border-t border-[#e3e3e0] dark:border-[#3E3E3A]"></div>
-
-    <!-- Stats Section -->
-    <section class="relative pt-20 lg:pt-24 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
-        <div class="container mx-auto max-w-7xl">
-            <h2 class="text-3xl lg:text-4xl font-semibold mb-16 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
-                Our Achievements
-            </h2>
-            <div class="grid grid-cols-3 gap-8 lg:gap-16">
-                <div class="group text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">50+</div>
-                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
-                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Clients</div>
-                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Satisfied worldwide</div>
-                </div>
-
-                <div class="group text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">15+</div>
-                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
-                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Team</div>
-                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Expert professionals</div>
-                </div>
-
-                <div class="group text-center" data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">3+</div>
-                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
-                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Years</div>
-                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Of experience</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Services Section -->
     <section class="relative pt-20 lg:pt-24 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
         <div class="container mx-auto max-w-7xl">
@@ -439,66 +278,297 @@
         </div>
     </section>
 
-    <!-- Last Project Section -->
-    <section class="relative pt-24 lg:pt-32 pb-24 lg:pb-32 px-6 lg:px-8 bg-[#FDFDFC] dark:bg-[#0a0a0a]">
+    <!-- Portfolio Section -->
+    <section class="relative pt-24 lg:pt-32 pb-24 lg:pb-32 px-6 lg:px-8 bg-[#FDFDFC] dark:bg-[#0a0a0a] overflow-hidden">
         <div class="container mx-auto max-w-7xl">
-            <h2 class="text-3xl lg:text-4xl font-semibold mb-20 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
-                Last Project
-            </h2>
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight">
+                    Our Portfolio
+                </h2>
+                <p class="text-lg text-[#706f6c] dark:text-[#A1A09A] max-w-2xl mx-auto">
+                    Showcasing our latest projects and creative solutions
+                </p>
+            </div>
 
-            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center" data-aos="fade-up" data-aos-delay="100">
-                <!-- Project Image / Website Preview -->
-                <div class="order-2 lg:order-1">
-                    <div class="relative overflow-hidden bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] aspect-[3/4]">
-                        <iframe
-                            src="https://pandalungan.online/"
-                            class="w-full h-full scale-75 origin-top-left"
-                            style="width: 133.33%; height: 133.33%; transform: scale(0.75); transform-origin: top left;"
-                            frameborder="0"
-                            scrolling="no"
-                            loading="lazy"
-                            title="Pandalungan Festival Website Preview"
-                            allow="fullscreen"
-                        ></iframe>
+            <!-- Portfolio Carousel -->
+            <div class="relative">
+                <!-- Carousel Container -->
+                <div class="portfolio-carousel-container overflow-hidden">
+                    <div id="portfolio-carousel" class="flex transition-transform duration-500 ease-in-out">
+                        <!-- Slide 1: Pandalungan Festival -->
+                        <div class="portfolio-slide min-w-full">
+                            <div class="group relative">
+                                <a href="https://pandalungan.online/" target="_blank" rel="noopener noreferrer" class="block">
+                                    <div class="relative overflow-hidden bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] transition-all duration-500 group-hover:border-[#1b1b18] dark:group-hover:border-white">
+                                        <div class="grid lg:grid-cols-2 gap-0">
+                                            <!-- Image Side -->
+                                            <div class="relative h-[400px] lg:h-[600px] overflow-hidden order-2 lg:order-1">
+                                                <img
+                                                    src="/images/porto/pandalungan-festival.webp"
+                                                    alt="Pandalungan Festival"
+                                                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                                >
+                                                <div class="absolute inset-0 bg-gradient-to-r from-[#1b1b18]/0 via-[#1b1b18]/0 to-[#1b1b18]/20 dark:to-[#EDEDEC]/20 group-hover:to-[#1b1b18]/40 dark:group-hover:to-[#EDEDEC]/40 transition-all duration-500"></div>
+                                            </div>
+                                            <!-- Content Side -->
+                                            <div class="flex flex-col justify-center p-12 lg:p-16 order-1 lg:order-2 bg-white dark:bg-[#161615]">
+                                                <div class="mb-6">
+                                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#706f6c] dark:text-[#A1A09A]">Event Platform</span>
+                                                </div>
+                                                <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-[#1b1b18] dark:group-hover:text-white transition-colors">
+                                                    Pandalungan Festival
+                                                </h3>
+                                                <p class="text-lg text-[#706f6c] dark:text-[#A1A09A] mb-8 leading-relaxed">
+                                                    Modern event registration platform with seamless user experience and integrated payment system.
+                                                </p>
+                                                <div class="inline-flex items-center gap-2 text-[#1b1b18] dark:text-[#EDEDEC] font-semibold group-hover:gap-4 transition-all duration-300">
+                                                    <span>View Project</span>
+                                                    <i class="fi fi-rr-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Hakordia Fun Night Run -->
+                        <div class="portfolio-slide min-w-full">
+                            <div class="group relative">
+                                <a href="https://www.hakordia.online/" target="_blank" rel="noopener noreferrer" class="block">
+                                    <div class="relative overflow-hidden bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] transition-all duration-500 group-hover:border-[#1b1b18] dark:group-hover:border-white">
+                                        <div class="grid lg:grid-cols-2 gap-0">
+                                            <!-- Content Side -->
+                                            <div class="flex flex-col justify-center p-12 lg:p-16 order-1 bg-white dark:bg-[#161615]">
+                                                <div class="mb-6">
+                                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#706f6c] dark:text-[#A1A09A]">Event Management</span>
+                                                </div>
+                                                <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-[#1b1b18] dark:group-hover:text-white transition-colors">
+                                                    Hakordia Fun Night Run
+                                                </h3>
+                                                <p class="text-lg text-[#706f6c] dark:text-[#A1A09A] mb-8 leading-relaxed">
+                                                    Registration system for large-scale running events with team management and real-time updates.
+                                                </p>
+                                                <div class="inline-flex items-center gap-2 text-[#1b1b18] dark:text-[#EDEDEC] font-semibold group-hover:gap-4 transition-all duration-300">
+                                                    <span>View Project</span>
+                                                    <i class="fi fi-rr-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                            <!-- Image Side -->
+                                            <div class="relative h-[400px] lg:h-[600px] overflow-hidden order-2 bg-white dark:bg-[#161615]">
+                                                <img
+                                                    src="/images/porto/hakordia-fun-night-run.webp"
+                                                    alt="Hakordia Fun Night Run"
+                                                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                                >
+                                                <div class="absolute inset-0 bg-gradient-to-l from-[#1b1b18]/0 via-[#1b1b18]/0 to-[#1b1b18]/20 dark:to-[#EDEDEC]/20 group-hover:to-[#1b1b18]/40 dark:group-hover:to-[#EDEDEC]/40 transition-all duration-500"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project Details -->
-                <div class="order-1 lg:order-2" data-aos="fade-up" data-aos-delay="200">
-                    <div class="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-[#1b1b18]/5 dark:bg-white/5 backdrop-blur-sm border border-[#1b1b18]/10 dark:border-white/10">
-                        <span class="text-sm font-medium text-[#706f6c] dark:text-[#A1A09A]">Latest Work</span>
-                    </div>
+                <!-- Indicators -->
+                <div class="flex justify-center gap-3 mt-8">
+                    <button class="portfolio-indicator h-1.5 rounded-full bg-[#1b1b18] dark:bg-[#EDEDEC] transition-all duration-300" style="width: 3rem;" data-slide="0" aria-label="Go to slide 1"></button>
+                    <button class="portfolio-indicator h-1.5 rounded-full bg-[#706f6c] dark:bg-[#A1A09A] transition-all duration-300" style="width: 1.5rem;" data-slide="1" aria-label="Go to slide 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <h3 class="text-3xl lg:text-4xl font-bold mb-8 text-[#1b1b18] dark:text-[#EDEDEC]">
-                        Modern Web Application
-                    </h3>
+    <!-- Divider -->
+    <div class="border-t border-[#e3e3e0] dark:border-[#3E3E3A]"></div>
 
-                    <p class="text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-10 leading-relaxed">
-                        A cutting-edge web application built with modern technologies, delivering exceptional user experience and performance. This project showcases our expertise in full-stack development and innovative solutions.
-                    </p>
+    <!-- Stats Section -->
+    <section class="relative pt-20 lg:pt-24 pb-20 px-6 lg:px-8 bg-white dark:bg-[#161615]">
+        <div class="container mx-auto max-w-7xl">
+            <h2 class="text-3xl lg:text-4xl font-semibold mb-16 text-center text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up">
+                Our Achievements
+            </h2>
+            <div class="grid grid-cols-3 gap-8 lg:gap-16">
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">50+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Clients</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Satisfied worldwide</div>
+                </div>
 
-                    <!-- Tech Stack Used -->
-                    <div class="mb-10">
-                        <h4 class="text-base font-semibold mb-5 text-[#1b1b18] dark:text-[#EDEDEC] uppercase tracking-wide">Technologies Used</h4>
-                        <div class="flex flex-wrap gap-3">
-                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">Laravel</span>
-                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">Vue.js</span>
-                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">PostgreSQL</span>
-                            <span class="px-4 py-2 text-sm bg-[#1b1b18]/10 dark:bg-white/10 text-[#1b1b18] dark:text-[#EDEDEC] border border-[#1b1b18]/20 dark:border-white/20">AWS</span>
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">15+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Team</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Expert professionals</div>
+                </div>
+
+                <div class="group text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#1b1b18] dark:text-[#EDEDEC] mb-2 group-hover:scale-105 transition-transform duration-300">3+</div>
+                    <div class="h-1 w-16 mx-auto mb-4 bg-[#1b1b18] dark:bg-white group-hover:w-24 transition-all duration-300"></div>
+                    <div class="text-lg lg:text-xl font-medium text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Years</div>
+                    <div class="text-sm text-[#706f6c] dark:text-[#A1A09A]">Of experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="relative pt-12 pb-12 lg:pt-16 lg:pb-16 bg-white dark:bg-[#161615] border-y border-[#e3e3e0] dark:border-[#3E3E3A] overflow-visible z-30" style="transform: skewY(-2deg);">
+        <div class="container mx-auto max-w-7xl px-4 sm:px-8 lg:px-12">
+            <div class="overflow-hidden -mx-4 sm:-mx-8 lg:-mx-12">
+                <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 animate-scroll px-4 sm:px-8 lg:px-12">
+                    <!-- Tech Stack Items -->
+                    <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 min-w-max">
+                        <div class="flex items-center gap-2 sm:gap-3 lg:gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
+                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
                         </div>
                     </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="flex items-center gap-10 min-w-max">
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
+                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
+                        </div>
+                    </div>
+                    <!-- Third duplicate for extra seamless loop -->
+                    <div class="flex items-center gap-10 min-w-max">
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/laravel.svg" alt="Laravel" class="w-8 h-8 lg:w-10 lg:h-10 tech-logo" />
+                            <span class="text-sm lg:text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Laravel</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg" alt="Vue.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Vue.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">React</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Node.js</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Python</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Docker</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">AWS</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">PostgreSQL</span>
+                        </div>
+                        <div class="flex items-center gap-4 transition-all duration-300 group cursor-pointer">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg" alt="Redis" class="w-10 h-10 tech-logo" />
+                            <span class="text-lg font-medium text-[#706f6c] dark:text-[#A1A09A] group-hover:text-[#1b1b18] dark:group-hover:text-[#EDEDEC] transition-colors duration-300">Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <!-- View Project Button -->
-                    <a
-                        href="#"
-                        class="inline-flex items-center gap-2 px-6 py-3 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white transition-all duration-300 font-medium shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20"
-                    >
-                        <span>View Project</span>
-                        <i class="fi fi-rr-arrow-right"></i>
+    <!-- CTA Section -->
+    <section id="contact" class="relative pt-24 lg:pt-32 pb-24 lg:pb-32 px-6 lg:px-8 bg-[#1b1b18] dark:bg-[#0a0a0a] overflow-hidden">
+        <div class="container mx-auto max-w-7xl relative z-10">
+            <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-6 text-white dark:text-[#EDEDEC] tracking-tight">
+                    Ready to Start Your Project?
+                </h2>
+                <p class="text-lg lg:text-xl text-[#A1A09A] dark:text-[#A1A09A] mb-10 leading-relaxed">
+                    Let's work together to bring your ideas to life. Get in touch with us today and let's discuss how we can help you achieve your goals.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#contact" class="group relative px-8 py-4 bg-white dark:bg-[#EDEDEC] text-[#1b1b18] dark:text-[#1C1C1A] hover:bg-[#EDEDEC] dark:hover:bg-white transition-all duration-300 text-center text-base font-semibold shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
+                        <span class="relative z-10 flex items-center justify-center gap-2">
+                            Get Started
+                            <i class="fi fi-rr-arrow-right text-base group-hover:translate-x-1 transition-transform"></i>
+                        </span>
+                    </a>
+                    <a href="#contact" class="group relative px-8 py-4 border-2 border-white/30 dark:border-[#EDEDEC]/30 hover:border-white dark:hover:border-[#EDEDEC] transition-all duration-300 text-center text-base font-semibold backdrop-blur-sm bg-white/10 dark:bg-[#EDEDEC]/10 hover:bg-white/20 dark:hover:bg-[#EDEDEC]/20 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
+                        <span class="relative z-10 flex items-center justify-center gap-2 text-white dark:text-[#EDEDEC]">
+                            Contact Us
+                            <i class="fi fi-rr-envelope text-base group-hover:translate-x-1 transition-transform"></i>
+                        </span>
                     </a>
                 </div>
             </div>
         </div>
+        <!-- Decorative Background Elements -->
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle, white 1px, transparent 1px); background-size: 30px 30px;"></div>
     </section>
 
 </x-layouts.app>

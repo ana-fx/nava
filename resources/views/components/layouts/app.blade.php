@@ -207,6 +207,100 @@
             window.addEventListener('resize', () => {
                 setEqualTabHeights();
             });
+
+            // Portfolio Carousel
+            (function() {
+                const carousel = document.getElementById('portfolio-carousel');
+                const indicators = document.querySelectorAll('.portfolio-indicator');
+                
+                if (!carousel) return;
+
+                let currentSlide = 0;
+                const totalSlides = document.querySelectorAll('.portfolio-slide').length;
+
+                function updateCarousel() {
+                    carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+                    
+                    // Update indicators
+                    indicators.forEach((indicator, index) => {
+                        if (index === currentSlide) {
+                            indicator.classList.remove('bg-[#706f6c]', 'dark:bg-[#A1A09A]');
+                            indicator.classList.add('bg-[#1b1b18]', 'dark:bg-[#EDEDEC]');
+                            indicator.style.width = '3rem';
+                        } else {
+                            indicator.classList.remove('bg-[#1b1b18]', 'dark:bg-[#EDEDEC]');
+                            indicator.classList.add('bg-[#706f6c]', 'dark:bg-[#A1A09A]');
+                            indicator.style.width = '1.5rem';
+                        }
+                    });
+                }
+
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                    updateCarousel();
+                }
+
+                function goToSlide(index) {
+                    currentSlide = index;
+                    updateCarousel();
+                }
+
+                // Event listeners
+                indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', () => goToSlide(index));
+                });
+
+                // Auto-play
+                let autoPlayInterval = setInterval(nextSlide, 5000);
+                
+                const carouselContainer = carousel.closest('.relative');
+                if (carouselContainer) {
+                    carouselContainer.addEventListener('mouseenter', () => {
+                        clearInterval(autoPlayInterval);
+                    });
+                    
+                    carouselContainer.addEventListener('mouseleave', () => {
+                        autoPlayInterval = setInterval(nextSlide, 5000);
+                    });
+                }
+
+                // Touch/swipe support
+                let startX = 0;
+                let isDragging = false;
+
+                carousel.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    isDragging = true;
+                    clearInterval(autoPlayInterval);
+                });
+
+                carousel.addEventListener('touchmove', (e) => {
+                    if (!isDragging) return;
+                    e.preventDefault();
+                });
+
+                carousel.addEventListener('touchend', (e) => {
+                    if (!isDragging) return;
+                    isDragging = false;
+                    const endX = e.changedTouches[0].clientX;
+                    const diff = startX - endX;
+
+                    if (Math.abs(diff) > 50) {
+                        if (diff > 0) {
+                            nextSlide();
+                        } else {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateCarousel();
+                        }
+                    }
+                    
+                    // Resume auto-play after swipe
+                    autoPlayInterval = setInterval(nextSlide, 5000);
+                });
+
+                // Initialize
+                updateCarousel();
+            })();
         </script>
     </body>
 </html>
