@@ -1,7 +1,7 @@
 <!-- Footer -->
-<footer class="mt-20 border-t border-[#3E3E3A] bg-[#000000]">
-    <div class="container mx-auto px-6 lg:px-8">
-        <div class="py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+<footer class="mt-0 border-t border-[#3E3E3A] bg-[#000000]">
+    <div class="container mx-auto px-6 lg:px-8 max-w-7xl">
+        <div class="pt-12 pb-12 grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Company Info -->
             <div class="md:col-span-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="mb-4">

@@ -1,7 +1,7 @@
 <x-layouts.app title="Company Profile - Nava">
     <!-- Hero Section -->
-    <section class="relative pb-20 lg:pb-24 px-6 lg:px-8 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-[73px]">
-        <div class="container mx-auto max-w-7xl relative z-10">
+    <section class="relative pb-20 lg:pb-24 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-[73px]">
+        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <!-- Text Content -->
                 <div data-aos="fade-up" data-aos-delay="100">
@@ -415,10 +415,10 @@
     </section>
 
     <!-- Tech Stack Section -->
-    <section class="relative pt-12 pb-12 lg:pt-16 lg:pb-16 bg-white dark:bg-[#161615] border-y border-[#e3e3e0] dark:border-[#3E3E3A] overflow-visible z-30" style="transform: skewY(-2deg);">
-        <div class="container mx-auto max-w-7xl px-4 sm:px-8 lg:px-12">
-            <div class="overflow-hidden -mx-4 sm:-mx-8 lg:-mx-12">
-                <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 animate-scroll px-4 sm:px-8 lg:px-12">
+    <section class="relative pt-12 pb-12 lg:pt-16 lg:pb-16 bg-white dark:bg-[#161615] border-y border-[#e3e3e0] dark:border-[#3E3E3A] overflow-visible z-30 px-0">
+        <div class="w-full">
+            <div class="overflow-hidden w-full">
+                <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 animate-scroll">
                     <!-- Tech Stack Items -->
                     <div class="flex items-center gap-6 sm:gap-8 lg:gap-10 min-w-max">
                         <div class="flex items-center gap-2 sm:gap-3 lg:gap-4 transition-all duration-300 group cursor-pointer">
@@ -542,7 +542,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section id="contact" class="relative pt-24 lg:pt-32 pb-24 lg:pb-32 px-6 lg:px-8 bg-[#1b1b18] dark:bg-[#0a0a0a] overflow-hidden">
+    <section id="contact" class="relative pt-24 lg:pt-32 pb-12 lg:pb-16 px-6 lg:px-8 bg-[#1b1b18] dark:bg-[#0a0a0a] overflow-hidden">
         <div class="container mx-auto max-w-7xl relative z-10">
             <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
                 <h2 class="text-3xl lg:text-5xl font-bold mb-6 text-white dark:text-[#EDEDEC] tracking-tight">
