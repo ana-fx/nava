@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,6 +18,9 @@ Route::get('/terms-of-service', function () {
 Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');
+
+// Sitemap
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 
 // Test email route (for development/testing only)
 Route::get('/test-email', [ContactController::class, 'testEmail'])->name('contact.test');

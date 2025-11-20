@@ -1,4 +1,8 @@
-<x-layouts.app title="Contact Us - Nava">
+<x-layouts.app 
+    title="Contact Us - Nava | Get in Touch with Our Team"
+    description="Contact Nava for technology solutions and professional services. Reach us via email at navadigital931@gmail.com or phone +62 878-8361-1530. Located in Ponorogo, Jawa Timur, Indonesia."
+    keywords="contact Nava, technology consulting contact, software development contact, IT services contact, Nava contact information, Ponorogo"
+>
     <!-- Hero Section -->
     <section class="relative pb-8 sm:pb-12 lg:pb-16 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-16 sm:pt-20 lg:pt-[73px]">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
@@ -10,6 +14,7 @@
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight px-4 sm:px-0" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
                     Contact Us
                 </h1>
+                <p class="sr-only">Get in touch with Nava for technology solutions and professional services. Reach us via email, phone, or visit us in Ponorogo, Jawa Timur, Indonesia.</p>
                 <p class="text-base sm:text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-6 sm:mb-8 leading-relaxed px-4 sm:px-0" data-aos="fade-up" data-aos-delay="150">
                     Have a question or want to work together? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
                 </p>
@@ -26,6 +31,27 @@
                     <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 sm:mb-6 lg:mb-8 text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight">
                         Let's Connect
                     </h2>
+                    <script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "ContactPage",
+                        "name": "Contact Us - Nava",
+                        "description": "Contact Nava for technology solutions and professional services. Get in touch with our team.",
+                        "url": "{{ url('/contact') }}",
+                        "mainEntity": {
+                            "@type": "Organization",
+                            "name": "Nava",
+                            "email": "navadigital931@gmail.com",
+                            "telephone": "+62-878-8361-1530",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressLocality": "Ponorogo",
+                                "addressRegion": "Jawa Timur",
+                                "addressCountry": "ID"
+                            }
+                        }
+                    }
+                    </script>
                     <p class="text-base sm:text-lg text-[#706f6c] dark:text-[#A1A09A] mb-6 sm:mb-8 lg:mb-10 leading-relaxed">
                         We're here to help and answer any questions you might have. We look forward to hearing from you.
                     </p>

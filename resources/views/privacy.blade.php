@@ -1,4 +1,9 @@
-<x-layouts.app title="Privacy Policy - Nava">
+<x-layouts.app
+    title="Privacy Policy - Nava | How We Protect Your Data"
+    description="Learn about Nava's Privacy Policy and how we collect, use, and protect your personal information when you use our services."
+    keywords="privacy policy, data protection, privacy statement, Nava privacy, GDPR compliance"
+    robots="index, follow"
+>
     <!-- Hero Section -->
     <section class="relative pb-8 sm:pb-12 lg:pb-16 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-16 sm:pt-20 lg:pt-[73px]">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">

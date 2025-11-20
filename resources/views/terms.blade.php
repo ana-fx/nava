@@ -1,4 +1,9 @@
-<x-layouts.app title="Terms of Service - Nava">
+<x-layouts.app
+    title="Terms of Service - Nava | Legal Terms & Conditions"
+    description="Read Nava's Terms of Service. Understand the terms and conditions for using our technology solutions and professional services."
+    keywords="terms of service, terms and conditions, Nava legal terms, service terms"
+    robots="index, follow"
+>
     <!-- Hero Section -->
     <section class="relative pb-8 sm:pb-12 lg:pb-16 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-16 sm:pt-20 lg:pt-[73px]">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">

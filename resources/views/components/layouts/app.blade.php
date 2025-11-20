@@ -1,13 +1,44 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ $title ?? 'Company Profile - Nava' }}</title>
+        <!-- SEO Meta Tags -->
+        <title>{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}</title>
+        <meta name="description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services to help businesses achieve their goals.' }}">
+        <meta name="keywords" content="{{ $keywords ?? 'technology solutions, software development, IT consulting, technology services, web development, digital transformation, Nava, Ponorogo, Indonesia' }}">
+        <meta name="author" content="Nava">
+        <meta name="robots" content="{{ $robots ?? 'index, follow' }}">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="7 days">
+        <link rel="canonical" href="{{ url()->current() }}">
+        <link rel="alternate" hreflang="en" href="{{ url()->current() }}">
+        <link rel="alternate" hreflang="x-default" href="{{ url()->current() }}">
 
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ url()->current() }}">
+        <meta property="og:title" content="{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}">
+        <meta property="og:description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.' }}">
+        <meta property="og:image" content="{{ url('/logo-long.png') }}">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:site_name" content="Nava">
+        <meta property="og:locale" content="en_US">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="{{ url()->current() }}">
+        <meta name="twitter:title" content="{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}">
+        <meta name="twitter:description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.' }}">
+        <meta name="twitter:image" content="{{ url('/logo-long.png') }}">
+
+        <!-- Favicon -->
         <link rel="icon" href="/logo.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/logo.png">
+        <meta name="theme-color" content="#1b1b18">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +56,73 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Nava",
+            "legalName": "Nava",
+            "url": "https://nava.enterprises",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://nava.enterprises/logo-long.png",
+                "width": "1200",
+                "height": "400"
+            },
+            "description": "Nava provides cutting-edge technology solutions and professional services including software development, technology consulting, and support services.",
+            "foundingDate": "2022",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ponorogo",
+                "addressRegion": "Jawa Timur",
+                "addressCountry": "ID"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+62-878-8361-1530",
+                "contactType": "Customer Service",
+                "email": "navadigital931@gmail.com",
+                "availableLanguage": ["English", "Indonesian"],
+                "areaServed": "ID"
+            },
+            "sameAs": [
+                "https://nava.enterprises"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "50"
+            }
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Nava",
+            "alternateName": "Nava Technology Solutions",
+            "url": "https://nava.enterprises",
+            "description": "Technology solutions and professional services",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Nava",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://nava.enterprises/logo-long.png"
+                }
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nava.enterprises/search?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }
+        }
+        </script>
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] dark:text-[#EDEDEC] antialiased">
         @include('partials.navigation')

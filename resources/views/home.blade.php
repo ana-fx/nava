@@ -1,4 +1,8 @@
-<x-layouts.app title="Company Profile - Nava">
+<x-layouts.app
+    title="Nava - Technology Solutions & Professional Services | Software Development & IT Consulting"
+    description="Nava provides cutting-edge technology solutions and professional services including software development, technology consulting, and support services. Located in Ponorogo, Jawa Timur, Indonesia."
+    keywords="technology solutions, software development, IT consulting, web development, digital transformation, technology services, Nava, Ponorogo, Indonesia"
+>
     <!-- Hero Section -->
     <section class="relative pb-20 lg:pb-24 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-[73px]">
         <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
@@ -14,7 +18,7 @@
                     <h1 class="text-4xl lg:text-5xl font-bold mb-4 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
                         Building the Future with
                         <span class="block mt-2 text-[#1b1b18] dark:text-[#EDEDEC]">
-                            Cutting-Edge Solutions
+                            Cutting-Edge Technology Solutions
                         </span>
                     </h1>
 
