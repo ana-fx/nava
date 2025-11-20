@@ -30,7 +30,7 @@
                                 <i class="fi fi-rr-arrow-right text-sm group-hover:translate-x-1 transition-transform"></i>
                             </span>
                         </a>
-                        <a href="#contact" class="group relative px-6 py-3 border-2 border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18]/40 dark:hover:border-white/40 transition-all duration-300 text-center text-sm font-medium backdrop-blur-sm bg-white/50 dark:bg-[#0a0a0a]/50 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
+                        <a href="{{ route('contact.index') }}" class="group relative px-6 py-3 border-2 border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18]/40 dark:hover:border-white/40 transition-all duration-300 text-center text-sm font-medium backdrop-blur-sm bg-white/50 dark:bg-[#0a0a0a]/50 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95">
                             <span class="relative z-10 flex items-center justify-center gap-2">
                             Contact Us
                                 <i class="fi fi-rr-envelope text-sm group-hover:translate-x-1 transition-transform"></i>
@@ -552,13 +552,13 @@
                     Let's work together to bring your ideas to life. Get in touch with us today and let's discuss how we can help you achieve your goals.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="#contact" class="group relative px-8 py-4 bg-white dark:bg-[#EDEDEC] text-[#1b1b18] dark:text-[#1C1C1A] hover:bg-[#EDEDEC] dark:hover:bg-white transition-all duration-300 text-center text-base font-semibold shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
+                    <a href="{{ route('contact.index') }}" class="group relative px-8 py-4 bg-white dark:bg-[#EDEDEC] text-[#1b1b18] dark:text-[#1C1C1A] hover:bg-[#EDEDEC] dark:hover:bg-white transition-all duration-300 text-center text-base font-semibold shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
                         <span class="relative z-10 flex items-center justify-center gap-2">
                             Get Started
                             <i class="fi fi-rr-arrow-right text-base group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </a>
-                    <a href="#contact" class="group relative px-8 py-4 border-2 border-white/30 dark:border-[#EDEDEC]/30 hover:border-white dark:hover:border-[#EDEDEC] transition-all duration-300 text-center text-base font-semibold backdrop-blur-sm bg-white/10 dark:bg-[#EDEDEC]/10 hover:bg-white/20 dark:hover:bg-[#EDEDEC]/20 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
+                    <a href="{{ route('contact.index') }}" class="group relative px-8 py-4 border-2 border-white/30 dark:border-[#EDEDEC]/30 hover:border-white dark:hover:border-[#EDEDEC] transition-all duration-300 text-center text-base font-semibold backdrop-blur-sm bg-white/10 dark:bg-[#EDEDEC]/10 hover:bg-white/20 dark:hover:bg-[#EDEDEC]/20 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white/20 active:scale-95">
                         <span class="relative z-10 flex items-center justify-center gap-2 text-white dark:text-[#EDEDEC]">
                             Contact Us
                             <i class="fi fi-rr-envelope text-base group-hover:translate-x-1 transition-transform"></i>

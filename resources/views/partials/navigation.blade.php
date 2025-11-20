@@ -10,8 +10,8 @@
         </a>
         <div class="flex items-center gap-4">
             <a
-                href="#contact"
-                class="px-6 py-2.5 text-sm bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white rounded-xl transition-all duration-300 font-medium shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95 border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20"
+                href="{{ route('contact.index') }}"
+                class="px-6 py-2.5 text-sm bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white transition-all duration-300 font-medium shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95 border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20"
             >
                 Contact Us
             </a>

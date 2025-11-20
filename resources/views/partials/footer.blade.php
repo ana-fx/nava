@@ -38,7 +38,7 @@
                         <a href="#about" class="text-sm text-gray-400 hover:text-white transition-colors">About Us</a>
                     </li>
                     <li>
-                        <a href="#contact" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a>
+                        <a href="{{ route('contact.index') }}" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a>
                     </li>
                     <li>
                         <a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Services</a>
