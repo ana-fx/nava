@@ -113,10 +113,10 @@
 
             <div class="info-box">
                 <div style="margin-bottom: 10px;">
-                    <strong>Email:</strong> <a href="mailto:info@nava.com" style="color: #1b1b18; text-decoration: none;">info@nava.com</a>
+                    <strong>Email:</strong> <a href="mailto:navadigital931@gmail.com" style="color: #1b1b18; text-decoration: none;">navadigital931@gmail.com</a>
                 </div>
                 <div style="margin-bottom: 10px;">
-                    <strong>Phone:</strong> <a href="tel:+6281234567890" style="color: #1b1b18; text-decoration: none;">+62 812 3456 7890</a>
+                    <strong>Phone:</strong> <a href="tel:+6287883611530" style="color: #1b1b18; text-decoration: none;">+62 878-8361-1530</a>
                 </div>
             </div>
 

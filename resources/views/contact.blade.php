@@ -40,8 +40,8 @@
                                 </div>
                                 <div class="min-w-0 flex-1">
                                     <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Email</h3>
-                                    <a href="mailto:info@nava.com" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
-                                        info@nava.com
+                                    <a href="mailto:navadigital931@gmail.com" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
+                                        navadigital931@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -55,8 +55,8 @@
                                 </div>
                                 <div class="min-w-0 flex-1">
                                     <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Phone</h3>
-                                    <a href="tel:+6281234567890" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
-                                        +62 812 3456 7890
+                                    <a href="tel:+6287883611530" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
+                                        +62 878-8361-1530
                                     </a>
                                 </div>
                             </div>
@@ -70,9 +70,9 @@
                                 </div>
                                 <div class="min-w-0 flex-1">
                                     <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Address</h3>
-                                    <p class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A]">
-                                        Jakarta, Indonesia
-                                    </p>
+                                    <a href="https://www.google.com/maps/search/Ponorogo,+Jawa+Timur" target="_blank" rel="noopener noreferrer" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors">
+                                        Ponorogo, Jawa Timur
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                                     name="phone"
                                     value="{{ old('phone') }}"
                                     class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300"
-                                    placeholder="+62 812 3456 7890"
+                                    placeholder="+62 878-8361-1530"
                                 >
                                 @error('phone')
                                     <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
