@@ -3,26 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
         <!-- SEO Meta Tags -->
-        <title>{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}</title>
-        <meta name="description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services to help businesses achieve their goals.' }}">
-        <meta name="keywords" content="{{ $keywords ?? 'technology solutions, software development, IT consulting, technology services, web development, digital transformation, Nava, Ponorogo, Indonesia' }}">
+        <title><?php echo e($title ?? 'Nava - Technology Solutions & Professional Services'); ?></title>
+        <meta name="description" content="<?php echo e($description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services to help businesses achieve their goals.'); ?>">
+        <meta name="keywords" content="<?php echo e($keywords ?? 'technology solutions, software development, IT consulting, technology services, web development, digital transformation, Nava, Ponorogo, Indonesia'); ?>">
         <meta name="author" content="Nava">
-        <meta name="robots" content="{{ $robots ?? 'index, follow' }}">
+        <meta name="robots" content="<?php echo e($robots ?? 'index, follow'); ?>">
         <meta name="language" content="English">
         <meta name="revisit-after" content="7 days">
-        <link rel="canonical" href="{{ url()->current() }}">
-        <link rel="alternate" hreflang="en" href="{{ url()->current() }}">
-        <link rel="alternate" hreflang="x-default" href="{{ url()->current() }}">
+        <link rel="canonical" href="<?php echo e(url()->current()); ?>">
+        <link rel="alternate" hreflang="en" href="<?php echo e(url()->current()); ?>">
+        <link rel="alternate" hreflang="x-default" href="<?php echo e(url()->current()); ?>">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}">
-        <meta property="og:description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.' }}">
-        <meta property="og:image" content="{{ url('/logo-long.png') }}">
+        <meta property="og:url" content="<?php echo e(url()->current()); ?>">
+        <meta property="og:title" content="<?php echo e($title ?? 'Nava - Technology Solutions & Professional Services'); ?>">
+        <meta property="og:description" content="<?php echo e($description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.'); ?>">
+        <meta property="og:image" content="<?php echo e(url('/logo-long.png')); ?>">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="Nava">
@@ -30,10 +30,10 @@
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="{{ url()->current() }}">
-        <meta name="twitter:title" content="{{ $title ?? 'Nava - Technology Solutions & Professional Services' }}">
-        <meta name="twitter:description" content="{{ $description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.' }}">
-        <meta name="twitter:image" content="{{ url('/logo-long.png') }}">
+        <meta name="twitter:url" content="<?php echo e(url()->current()); ?>">
+        <meta name="twitter:title" content="<?php echo e($title ?? 'Nava - Technology Solutions & Professional Services'); ?>">
+        <meta name="twitter:description" content="<?php echo e($description ?? 'Nava provides cutting-edge technology solutions and professional services. We are committed to delivering innovative software development, technology consulting, and support services.'); ?>">
+        <meta name="twitter:image" content="<?php echo e(url('/logo-long.png')); ?>">
 
         <!-- Favicon -->
         <link rel="icon" href="/logo.svg" type="image/svg+xml">
@@ -55,10 +55,10 @@
         <!-- AOS (Animate On Scroll) -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <?php echo app('Illuminate\Foundation\Vite')(['resources/css/app.css', 'resources/js/app.js']); ?>
 
         <!-- Structured Data (JSON-LD) -->
-        @verbatim
+        
         <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -124,14 +124,15 @@
             }
         }
         </script>
-        @endverbatim
+        
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] dark:text-[#EDEDEC] antialiased">
-        @include('partials.navigation')
+        <?php echo $__env->make('partials.navigation', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
-        {{ $slot }}
+        <?php echo e($slot); ?>
 
-        @include('partials.footer')
+
+        <?php echo $__env->make('partials.footer', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
         <!-- Back to Top Button -->
         <button
@@ -404,3 +405,4 @@
         </script>
     </body>
 </html>
+<?php /**PATH C:\Users\anarp\Herd\nava\resources\views/components/layouts/app.blade.php ENDPATH**/ ?>

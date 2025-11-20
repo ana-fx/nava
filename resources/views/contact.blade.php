@@ -1,4 +1,4 @@
-<x-layouts.app 
+<x-layouts.app
     title="Contact Us - Nava | Get in Touch with Our Team"
     description="Contact Nava for technology solutions and professional services. Reach us via email at navadigital931@gmail.com or phone +62 878-8361-1530. Located in Ponorogo, Jawa Timur, Indonesia."
     keywords="contact Nava, technology consulting contact, software development contact, IT services contact, Nava contact information, Ponorogo"
@@ -271,4 +271,3 @@
         </div>
     </section>
 </x-layouts.app>
-

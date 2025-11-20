@@ -21,10 +21,10 @@
                 <h4 class="text-sm font-semibold mb-4 h-8 flex items-center text-white uppercase tracking-wide">Quick Links</h4>
                 <ul class="space-y-3">
                     <li>
-                        <a href="{{ route('home') }}" class="text-sm text-gray-400 hover:text-white transition-colors">Home</a>
+                        <a href="<?php echo e(route('home')); ?>" class="text-sm text-gray-400 hover:text-white transition-colors">Home</a>
                     </li>
                     <li>
-                        <a href="{{ route('contact.index') }}" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a>
+                        <a href="<?php echo e(route('contact.index')); ?>" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,13 +53,14 @@
         <div class="py-6 border-t border-gray-800">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-sm text-gray-400">
-                    &copy; {{ date('Y') }} Nava. All rights reserved.
+                    &copy; <?php echo e(date('Y')); ?> Nava. All rights reserved.
                 </p>
                 <div class="flex gap-6 text-sm">
-                    <a href="{{ route('terms') }}" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
-                    <a href="{{ route('privacy') }}" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="<?php echo e(route('terms')); ?>" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                    <a href="<?php echo e(route('privacy')); ?>" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+<?php /**PATH C:\Users\anarp\Herd\nava\resources\views/partials/footer.blade.php ENDPATH**/ ?>
