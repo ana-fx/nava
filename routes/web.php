@@ -11,6 +11,18 @@ Route::get('/', function () {
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/services', function () {
+    return view('services');
+})->name('services');
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+
 Route::get('/terms-of-service', function () {
     return view('terms');
 })->name('terms');

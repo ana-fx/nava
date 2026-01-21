@@ -4,268 +4,119 @@
     keywords="contact Nava, technology consulting contact, software development contact, IT services contact, Nava contact information, Ponorogo"
 >
     <!-- Hero Section -->
-    <section class="relative pb-8 sm:pb-12 lg:pb-16 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-16 sm:pt-20 lg:pt-[73px]">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+    <section class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[60vh] flex flex-col justify-center bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
             <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
-                <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-2 mb-3 sm:mb-4 bg-[#1b1b18]/5 dark:bg-white/5 backdrop-blur-sm border border-[#1b1b18]/10 dark:border-white/10" data-aos="fade-up" data-aos-delay="50">
-                    <span class="w-2 h-2 bg-[#1b1b18] dark:bg-[#EDEDEC] animate-pulse"></span>
-                    <span class="text-xs sm:text-sm font-medium text-[#706f6c] dark:text-[#A1A09A]">Get In Touch</span>
+                <!-- Status Pill -->
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-8 bg-white/50 backdrop-blur-md border border-gray-200 rounded-full shadow-sm">
+                    <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+                    <span class="text-xs font-semibold text-gray-600 tracking-wide">Open for Commissions</span>
                 </div>
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight px-4 sm:px-0" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
-                    Contact Us
+
+                <h1 class="text-5xl lg:text-7xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-[1.1] tracking-tight">
+                    Let's Craft Something <br/>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Extraordinary.</span>
                 </h1>
-                <p class="sr-only">Get in touch with Nava for technology solutions and professional services. Reach us via email, phone, or visit us in Ponorogo, Jawa Timur, Indonesia.</p>
-                <p class="text-base sm:text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-6 sm:mb-8 leading-relaxed px-4 sm:px-0" data-aos="fade-up" data-aos-delay="150">
-                    Have a question or want to work together? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+
+                <p class="text-lg lg:text-xl text-artisan-gray dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">
+                    Have a vision? We're the artisans who can bring it to life. Reach out today and let's start shaping your digital future.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="relative pt-8 sm:pt-12 lg:pt-16 pb-12 sm:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#161615] overflow-hidden">
-        <div class="container mx-auto max-w-7xl relative z-10">
-            <div class="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
-                <!-- Contact Information -->
-                <div data-aos="fade-right" data-aos-delay="100">
-                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 sm:mb-6 lg:mb-8 text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight">
-                        Let's Connect
+    <!-- Contact Content Section -->
+    <section class="relative py-20 lg:py-32 bg-artisan-bg-light dark:bg-dark-bg">
+        <div class="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+
+                <!-- Left Column: Info Cards -->
+                <div class="space-y-8" data-aos="fade-right">
+                    <h2 class="text-3xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-8">
+                        The Studio
                     </h2>
-                    <script type="application/ld+json">
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "ContactPage",
-                        "name": "Contact Us - Nava",
-                        "description": "Contact Nava for technology solutions and professional services. Get in touch with our team.",
-                        "url": "{{ url('/contact') }}",
-                        "mainEntity": {
-                            "@type": "Organization",
-                            "name": "Nava",
-                            "email": "navadigital931@gmail.com",
-                            "telephone": "+62-878-8361-1530",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressLocality": "Ponorogo",
-                                "addressRegion": "Jawa Timur",
-                                "addressCountry": "ID"
-                            }
-                        }
-                    }
-                    </script>
-                    <p class="text-base sm:text-lg text-[#706f6c] dark:text-[#A1A09A] mb-6 sm:mb-8 lg:mb-10 leading-relaxed">
-                        We're here to help and answer any questions you might have. We look forward to hearing from you.
-                    </p>
 
-                    <!-- Contact Cards -->
-                    <div class="space-y-4 sm:space-y-6">
-                        <!-- Email -->
-                        <div class="group p-4 sm:p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300 hover:shadow-lg">
-                            <div class="flex items-start gap-3 sm:gap-4">
-                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 flex-shrink-0">
-                                    <i class="fi fi-rr-envelope text-lg sm:text-xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
-                                </div>
-                                <div class="min-w-0 flex-1">
-                                    <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Email</h3>
-                                    <a href="mailto:navadigital931@gmail.com" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
-                                        navadigital931@gmail.com
-                                    </a>
-                                </div>
+                    <!-- Email Card -->
+                    <div class="group p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-start gap-6">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-400">
+                                <i class="fi fi-rr-envelope text-xl"></i>
                             </div>
-                        </div>
-
-                        <!-- Phone -->
-                        <div class="group p-4 sm:p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300 hover:shadow-lg">
-                            <div class="flex items-start gap-3 sm:gap-4">
-                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 flex-shrink-0">
-                                    <i class="fi fi-rr-phone-call text-lg sm:text-xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
-                                </div>
-                                <div class="min-w-0 flex-1">
-                                    <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Phone</h3>
-                                    <a href="tel:+6287883611530" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors break-words">
-                                        +62 878-8361-1530
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Address -->
-                        <div class="group p-4 sm:p-6 bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] hover:border-[#1b1b18] dark:hover:border-white transition-all duration-300 hover:shadow-lg">
-                            <div class="flex items-start gap-3 sm:gap-4">
-                                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#1b1b18]/5 dark:bg-white/5 group-hover:bg-[#1b1b18]/10 dark:group-hover:bg-white/10 transition-colors duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 flex-shrink-0">
-                                    <i class="fi fi-rr-marker text-lg sm:text-xl text-[#1b1b18] dark:text-[#EDEDEC]"></i>
-                                </div>
-                                <div class="min-w-0 flex-1">
-                                    <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1">Address</h3>
-                                    <a href="https://www.google.com/maps/search/Ponorogo,+Jawa+Timur" target="_blank" rel="noopener noreferrer" class="text-sm sm:text-base text-[#706f6c] dark:text-[#A1A09A] hover:text-[#1b1b18] dark:hover:text-[#EDEDEC] transition-colors">
-                                        Ponorogo, Jawa Timur
-                                    </a>
-                                </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-artisan-black dark:text-artisan-white mb-2">Electronic Mail</h3>
+                                <p class="text-gray-500 text-sm mb-2">For inquiries, proposals, and friendly hellos.</p>
+                                <a href="mailto:navadigital931@gmail.com" class="text-artisan-black dark:text-white font-semibold hover:text-purple-600 transition-colors">
+                                    navadigital931@gmail.com
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Social Media -->
-                    <div class="mt-6 sm:mt-8 lg:mt-10">
-                        <h3 class="text-base sm:text-lg font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-3 sm:mb-4">Follow Us</h3>
-                        <div class="flex gap-3 sm:gap-4">
-                            <a href="#" class="w-9 h-9 sm:w-10 sm:h-10 bg-[#1b1b18]/5 dark:bg-white/5 hover:bg-[#1b1b18] dark:hover:bg-white transition-all duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18] dark:hover:border-white group">
-                                <i class="fi fi-brands-facebook text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-white dark:group-hover:text-[#1C1C1A] transition-colors"></i>
-                            </a>
-                            <a href="#" class="w-9 h-9 sm:w-10 sm:h-10 bg-[#1b1b18]/5 dark:bg-white/5 hover:bg-[#1b1b18] dark:hover:bg-white transition-all duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18] dark:hover:border-white group">
-                                <i class="fi fi-brands-twitter text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-white dark:group-hover:text-[#1C1C1A] transition-colors"></i>
-                            </a>
-                            <a href="#" class="w-9 h-9 sm:w-10 sm:h-10 bg-[#1b1b18]/5 dark:bg-white/5 hover:bg-[#1b1b18] dark:hover:bg-white transition-all duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18] dark:hover:border-white group">
-                                <i class="fi fi-brands-linkedin text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-white dark:group-hover:text-[#1C1C1A] transition-colors"></i>
-                            </a>
-                            <a href="#" class="w-9 h-9 sm:w-10 sm:h-10 bg-[#1b1b18]/5 dark:bg-white/5 hover:bg-[#1b1b18] dark:hover:bg-white transition-all duration-300 flex items-center justify-center border border-[#1b1b18]/20 dark:border-white/20 hover:border-[#1b1b18] dark:hover:border-white group">
-                                <i class="fi fi-brands-instagram text-[#1b1b18] dark:text-[#EDEDEC] group-hover:text-white dark:group-hover:text-[#1C1C1A] transition-colors"></i>
-                            </a>
+                    <!-- Phone Card -->
+                    <div class="group p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-start gap-6">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400">
+                                <i class="fi fi-rr-phone-call text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-artisan-black dark:text-artisan-white mb-2">Direct Line</h3>
+                                <p class="text-gray-500 text-sm mb-2">Mon-Fri from 9am to 6pm, Western Indonesia Time.</p>
+                                <a href="tel:+6287883611530" class="text-artisan-black dark:text-white font-semibold hover:text-blue-600 transition-colors">
+                                    +62 878-8361-1530
+                                </a>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
 
-                <!-- Contact Form -->
-                <div data-aos="fade-left" data-aos-delay="100" class="mt-8 lg:mt-0">
-                    <div class="bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] p-6 sm:p-8 lg:p-10">
-                        <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 sm:mb-6 text-[#1b1b18] dark:text-[#EDEDEC] tracking-tight">
-                            Send Us a Message
-                        </h2>
+                <!-- Right Column: Form -->
+                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-[2.5rem] p-8 lg:p-12 shadow-2xl" data-aos="fade-left">
+                    <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-8">Start a Conversation</h2>
 
-                        @if(session('success'))
-                            <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
-                                <div class="flex items-center gap-2 sm:gap-3">
-                                    <i class="fi fi-rr-check-circle text-green-600 dark:text-green-400 text-lg sm:text-xl flex-shrink-0"></i>
-                                    <p class="text-sm sm:text-base text-green-800 dark:text-green-300">{{ session('success') }}</p>
-                                </div>
+                    @if(session('success'))
+                        <div class="mb-8 p-4 bg-green-50/50 border border-green-100 rounded-xl flex items-center gap-3">
+                            <i class="fi fi-rr-check-circle text-green-600"></i>
+                            <p class="text-sm text-green-800 font-medium">{{ session('success') }}</p>
+                        </div>
+                    @endif
+
+                     <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
+                        @csrf
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label for="name" class="text-sm font-semibold text-gray-700">Name</label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="John Doe">
                             </div>
-                        @endif
-
-                        @if($errors->any())
-                            <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
-                                <div class="flex items-start gap-2 sm:gap-3">
-                                    <i class="fi fi-rr-exclamation-circle text-red-600 dark:text-red-400 text-lg sm:text-xl flex-shrink-0 mt-0.5"></i>
-                                    <div class="min-w-0 flex-1">
-                                        <p class="text-sm sm:text-base text-red-800 dark:text-red-300 font-semibold mb-1 sm:mb-2">Please correct the following errors:</p>
-                                        <ul class="list-disc list-inside text-xs sm:text-sm text-red-700 dark:text-red-400 space-y-1">
-                                            @foreach($errors->all() as $error)
-                                                <li>{{ $error }}</li>
-                                            @endforeach
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="space-y-2">
+                                <label for="email" class="text-sm font-semibold text-gray-700">Email</label>
+                                <input type="email" id="email" name="email" required
+                                    class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="john@example.com">
                             </div>
-                        @endif
+                        </div>
 
-                        <form action="{{ route('contact.submit') }}" method="POST" class="space-y-4 sm:space-y-6">
-                            @csrf
+                        <div class="space-y-2">
+                            <label for="subject" class="text-sm font-semibold text-gray-700">Subject</label>
+                            <input type="text" id="subject" name="subject" required
+                                class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="Project Inquiry / General Question">
+                        </div>
 
-                            <!-- Name -->
-                            <div>
-                                <label for="name" class="block text-xs sm:text-sm font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1.5 sm:mb-2">
-                                    Name <span class="text-red-500">*</span>
-                                </label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    value="{{ old('name') }}"
-                                    required
-                                    class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300"
-                                    placeholder="Your full name"
-                                >
-                                @error('name')
-                                    <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
-                                @enderror
-                            </div>
+                        <div class="space-y-2">
+                            <label for="message" class="text-sm font-semibold text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none resize-none" placeholder="Tell us about your project..."></textarea>
+                        </div>
 
-                            <!-- Email -->
-                            <div>
-                                <label for="email" class="block text-xs sm:text-sm font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1.5 sm:mb-2">
-                                    Email <span class="text-red-500">*</span>
-                                </label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    value="{{ old('email') }}"
-                                    required
-                                    class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300"
-                                    placeholder="your.email@example.com"
-                                >
-                                @error('email')
-                                    <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
-                                @enderror
-                            </div>
-
-                            <!-- Phone -->
-                            <div>
-                                <label for="phone" class="block text-xs sm:text-sm font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1.5 sm:mb-2">
-                                    Phone
-                                </label>
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    name="phone"
-                                    value="{{ old('phone') }}"
-                                    class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300"
-                                    placeholder="+62 878-8361-1530"
-                                >
-                                @error('phone')
-                                    <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
-                                @enderror
-                            </div>
-
-                            <!-- Subject -->
-                            <div>
-                                <label for="subject" class="block text-xs sm:text-sm font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1.5 sm:mb-2">
-                                    Subject <span class="text-red-500">*</span>
-                                </label>
-                                <input
-                                    type="text"
-                                    id="subject"
-                                    name="subject"
-                                    value="{{ old('subject') }}"
-                                    required
-                                    class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300"
-                                    placeholder="What is this regarding?"
-                                >
-                                @error('subject')
-                                    <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
-                                @enderror
-                            </div>
-
-                            <!-- Message -->
-                            <div>
-                                <label for="message" class="block text-xs sm:text-sm font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-1.5 sm:mb-2">
-                                    Message <span class="text-red-500">*</span>
-                                </label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    rows="5"
-                                    required
-                                    class="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] focus:outline-none focus:ring-2 focus:ring-[#1b1b18] dark:focus:ring-white focus:border-transparent text-[#1b1b18] dark:text-[#EDEDEC] placeholder:text-[#706f6c] dark:placeholder:text-[#A1A09A] transition-all duration-300 resize-none"
-                                    placeholder="Tell us more about your inquiry..."
-                                >{{ old('message') }}</textarea>
-                                @error('message')
-                                    <p class="mt-1 text-xs sm:text-sm text-red-600 dark:text-red-400">{{ $message }}</p>
-                                @enderror
-                            </div>
-
-                            <!-- Submit Button -->
-                            <div>
-                                <button
-                                    type="submit"
-                                    class="w-full group relative px-5 sm:px-6 py-2.5 sm:py-3 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] hover:bg-black dark:hover:bg-white transition-all duration-300 text-center text-xs sm:text-sm font-semibold shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20 active:scale-95"
-                                >
-                                    <span class="relative z-10 flex items-center justify-center gap-2">
-                                        Send Message
-                                        <i class="fi fi-rr-paper-plane text-xs sm:text-sm group-hover:translate-x-1 transition-transform"></i>
-                                    </span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                        <button type="submit" class="w-full py-4 bg-artisan-black text-white rounded-xl font-bold text-lg hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                            Send Message
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>

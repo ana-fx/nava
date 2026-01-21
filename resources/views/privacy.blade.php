@@ -5,93 +5,145 @@
     robots="index, follow"
 >
     <!-- Hero Section -->
-    <section class="relative pb-8 sm:pb-12 lg:pb-16 overflow-hidden bg-[#FDFDFC] dark:bg-[#0a0a0a] min-h-[calc(100vh-73px)] flex items-center -mt-[73px] pt-16 sm:pt-20 lg:pt-[73px]">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+    <section class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[40vh] flex flex-col justify-center bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
             <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#1b1b18] dark:text-[#EDEDEC] leading-tight tracking-tight px-4 sm:px-0" style="text-shadow: 0 2px 4px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="100">
-                    Privacy Policy
+                 <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-8 bg-white/50 backdrop-blur-md border border-gray-200 rounded-full shadow-sm">
+                    <span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                    <span class="text-xs font-semibold text-gray-600 tracking-wide">Data Protection</span>
+                </div>
+
+                <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-tight tracking-tight">
+                    Privacy <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-400">Policy</span>
                 </h1>
-                <p class="text-base sm:text-lg lg:text-xl text-[#706f6c] dark:text-[#A1A09A] mb-6 sm:mb-8 leading-relaxed px-4 sm:px-0" data-aos="fade-up" data-aos-delay="150">
-                    Last updated: {{ date('F d, Y') }}
+
+                <p class="text-lg text-artisan-gray dark:text-gray-400 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    We value your privacy and are committed to protecting your personal data. Last updated: {{ date('F d, Y') }}
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Content Section -->
-    <section class="relative pt-8 sm:pt-12 lg:pt-16 pb-12 sm:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#161615] overflow-hidden">
-        <div class="container mx-auto max-w-4xl relative z-10">
+    <section class="relative py-20 bg-artisan-bg-light dark:bg-dark-bg">
+        <div class="container mx-auto max-w-4xl px-6 lg:px-8 relative z-10">
             <div class="prose prose-lg dark:prose-invert max-w-none" data-aos="fade-up">
-                <div class="bg-[#FDFDFC] dark:bg-[#0a0a0a] border border-[#e3e3e0] dark:border-[#3E3E3A] p-6 sm:p-8 lg:p-10">
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4">1. Information We Collect</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-4">
-                        We collect information that you provide directly to us, including:
-                    </p>
-                    <ul class="list-disc list-inside text-[#706f6c] dark:text-[#A1A09A] space-y-2 mb-6 ml-4">
-                        <li>Name and contact information (email address, phone number)</li>
-                        <li>Information you provide when contacting us through our contact form</li>
-                        <li>Any other information you choose to provide</li>
-                    </ul>
 
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">2. How We Use Your Information</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-4">
-                        We use the information we collect to:
-                    </p>
-                    <ul class="list-disc list-inside text-[#706f6c] dark:text-[#A1A09A] space-y-2 mb-6 ml-4">
-                        <li>Respond to your inquiries and provide customer support</li>
-                        <li>Send you updates about our services</li>
-                        <li>Improve our website and services</li>
-                        <li>Comply with legal obligations</li>
-                    </ul>
+                <!-- Glass Container -->
+                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-3xl p-8 lg:p-12 shadow-xl">
 
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">3. Information Sharing</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-6">
-                        We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share your information only in the following circumstances:
-                    </p>
-                    <ul class="list-disc list-inside text-[#706f6c] dark:text-[#A1A09A] space-y-2 mb-6 ml-4">
-                        <li>With service providers who assist us in operating our website and conducting our business</li>
-                        <li>When we believe release is appropriate to comply with the law or protect our rights</li>
-                        <li>In connection with a merger, acquisition, or sale of assets</li>
-                    </ul>
-
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">4. Data Security</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-6">
-                        We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure.
-                    </p>
-
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">5. Cookies and Tracking Technologies</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-6">
-                        Our website may use cookies and similar tracking technologies to enhance your experience. You can set your browser to refuse cookies, but this may limit your ability to use some features of our website.
-                    </p>
-
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">6. Your Rights</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-4">
-                        You have the right to:
-                    </p>
-                    <ul class="list-disc list-inside text-[#706f6c] dark:text-[#A1A09A] space-y-2 mb-6 ml-4">
-                        <li>Access and receive a copy of your personal information</li>
-                        <li>Request correction of inaccurate personal information</li>
-                        <li>Request deletion of your personal information</li>
-                        <li>Object to processing of your personal information</li>
-                    </ul>
-
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">7. Changes to This Privacy Policy</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-6">
-                        We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.
-                    </p>
-
-                    <h2 class="text-2xl font-semibold text-[#1b1b18] dark:text-[#EDEDEC] mb-4 mt-8">8. Contact Us</h2>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A] leading-relaxed mb-6">
-                        If you have any questions about this Privacy Policy, please contact us at:
-                    </p>
-                    <div class="bg-white dark:bg-[#161615] border border-[#e3e3e0] dark:border-[#3E3E3A] p-4 mb-6">
-                        <p class="text-[#706f6c] dark:text-[#A1A09A] mb-2">
-                            <strong>Email:</strong> <a href="mailto:navadigital931@gmail.com" class="text-[#1b1b18] dark:text-[#EDEDEC] hover:underline">navadigital931@gmail.com</a>
+                    <div class="mb-12">
+                        <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-4 flex items-center gap-3">
+                            <i class="fi fi-rr-fingerprint text-gray-400"></i> 1. Information Collection
+                        </h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed mb-4">
+                            We collect information that helps us provide you with the best experience. This includes:
                         </p>
-                        <p class="text-[#706f6c] dark:text-[#A1A09A]">
-                            <strong>Phone:</strong> <a href="tel:+6287883611530" class="text-[#1b1b18] dark:text-[#EDEDEC] hover:underline">+62 878-8361-1530</a>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Personal identifiers (Name, email, phone number).
+                            </li>
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Communications you send to us.
+                            </li>
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Usage data when interactions occur with our services.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-12">
+                         <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-4 flex items-center gap-3">
+                            <i class="fi fi-rr-database text-gray-400"></i> 2. Usage of Information
+                        </h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed mb-4">
+                            Your data powers our services. We strictly use it to:
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Provide, maintain, and improve our services.
+                            </li>
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Respond to customer service requests.
+                            </li>
+                            <li class="flex items-start gap-3 text-artisan-gray dark:text-artisan-gray-dark">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0"></span> Send technical notices and security alerts.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-12">
+                        <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-4 flex items-center gap-3">
+                            <i class="fi fi-rr-share text-gray-400"></i> 3. Information Sharing
+                        </h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed">
+                            We respect your data boundaries. We do not sell your personal information. We may share data only with trusted service providers who assist our operations, or when legally required to protect rights and safety.
                         </p>
                     </div>
+
+                    <div class="mb-12">
+                        <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-4 flex items-center gap-3">
+                            <i class="fi fi-rr-shield-check text-gray-400"></i> 4. Security Measures
+                        </h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed">
+                            We employ modern security practices to safeguard your information. This includes encryption, secure servers, and regular audits. While we strive for maximum security, no digital transmission is absolutely infallible.
+                        </p>
+                    </div>
+
+                    <div class="mb-12">
+                        <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-4 flex items-center gap-3">
+                            <i class="fi fi-rr-user text-gray-400"></i> 5. Your Rights
+                        </h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed mb-4">
+                            You retain control over your data. You have the right to:
+                        </p>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                             <div class="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5">
+                                <span class="font-bold text-artisan-black dark:text-white block mb-1">Access</span>
+                                <span class="text-sm text-gray-500">Request a copy of your data.</span>
+                             </div>
+                             <div class="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5">
+                                <span class="font-bold text-artisan-black dark:text-white block mb-1">Correction</span>
+                                <span class="text-sm text-gray-500">Fix inaccurate information.</span>
+                             </div>
+                             <div class="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5">
+                                <span class="font-bold text-artisan-black dark:text-white block mb-1">Deletion</span>
+                                <span class="text-sm text-gray-500">Request removal of your data.</span>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-gray-200 dark:border-white/10">
+                        <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-6">Privacy Inquiries</h2>
+                        <p class="text-artisan-gray dark:text-artisan-gray-dark mb-6">
+                            For any concerns regarding your data or this policy, please contact our Data Protection Officer.
+                        </p>
+
+                        <div class="bg-white/50 dark:bg-black/20 rounded-2xl p-6 border border-gray-100 dark:border-white/5 grid md:grid-cols-2 gap-6">
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 dark:bg-white/5 flex items-center justify-center text-blue-600 dark:text-blue-400">
+                                    <i class="fi fi-rr-envelope"></i>
+                                </div>
+                                <div>
+                                    <span class="block text-xs font-semibold uppercase text-gray-400 tracking-wider">Email</span>
+                                    <a href="mailto:navadigital931@gmail.com" class="text-artisan-black dark:text-white font-medium hover:text-blue-600 transition-colors">navadigital931@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-green-50 dark:bg-white/5 flex items-center justify-center text-green-600 dark:text-green-400">
+                                     <i class="fi fi-rr-phone-call"></i>
+                                </div>
+                                <div>
+                                    <span class="block text-xs font-semibold uppercase text-gray-400 tracking-wider">Phone</span>
+                                    <a href="tel:+6287883611530" class="text-artisan-black dark:text-white font-medium hover:text-green-600 transition-colors">+62 878-8361-1530</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -46,11 +46,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
         <!-- FlatIcon -->
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css">
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css">
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css">
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css">
+        <!-- Flaticon -->
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
 
         <!-- AOS (Animate On Scroll) -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -126,7 +126,7 @@
         </script>
         @endverbatim
     </head>
-    <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] dark:text-[#EDEDEC] antialiased">
+    <body class="bg-artisan-bg-light dark:bg-dark-bg text-artisan-black dark:text-artisan-white antialiased">
         @include('partials.navigation')
 
         {{ $slot }}
@@ -136,7 +136,7 @@
         <!-- Back to Top Button -->
         <button
             id="backToTop"
-            class="fixed bottom-8 right-8 z-50 w-12 h-12 bg-[#1b1b18] dark:bg-[#eeeeec] text-white dark:text-[#1C1C1A] rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 opacity-0 invisible flex items-center justify-center border-2 border-transparent hover:border-[#1b1b18]/20 dark:hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-[#1b1b18]/20 dark:focus:ring-white/20"
+            class="fixed bottom-8 right-8 z-50 w-12 h-12 bg-artisan-black dark:bg-artisan-white-soft text-white dark:text-artisan-black-soft rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 opacity-0 invisible flex items-center justify-center border-2 border-transparent hover:border-artisan-black/20 dark:hover:border-white/20 focus:outline-none focus:ring-4 focus:ring-artisan-black/20 dark:focus:ring-white/20"
             aria-label="Back to top"
         >
             <i class="fi fi-rr-arrow-up text-xl"></i>
@@ -277,8 +277,8 @@
 
                 // Remove active state from all tabs
                 document.querySelectorAll('.tab-button').forEach(button => {
-                    button.classList.remove('text-[#1b1b18]', 'dark:text-[#EDEDEC]', 'border-[#1b1b18]', 'dark:border-white');
-                    button.classList.add('text-[#706f6c]', 'dark:text-[#A1A09A]', 'border-transparent');
+                    button.classList.remove('text-artisan-black', 'dark:text-artisan-white', 'border-artisan-black', 'dark:border-white');
+                    button.classList.add('text-artisan-gray', 'dark:text-artisan-gray-dark', 'border-transparent');
                 });
 
                 // Show selected tab content
@@ -290,8 +290,8 @@
                 // Add active state to selected tab
                 const tabButton = document.getElementById(`tab-${tabName}`);
                 if (tabButton) {
-                    tabButton.classList.remove('text-[#706f6c]', 'dark:text-[#A1A09A]', 'border-transparent');
-                    tabButton.classList.add('text-[#1b1b18]', 'dark:text-[#EDEDEC]', 'border-[#1b1b18]', 'dark:border-white');
+                    tabButton.classList.remove('text-artisan-gray', 'dark:text-artisan-gray-dark', 'border-transparent');
+                    tabButton.classList.add('text-artisan-black', 'dark:text-artisan-white', 'border-artisan-black', 'dark:border-white');
                 }
             }
 
@@ -324,12 +324,12 @@
                     // Update indicators
                     indicators.forEach((indicator, index) => {
                         if (index === currentSlide) {
-                            indicator.classList.remove('bg-[#706f6c]', 'dark:bg-[#A1A09A]');
-                            indicator.classList.add('bg-[#1b1b18]', 'dark:bg-[#EDEDEC]');
+                            indicator.classList.remove('bg-artisan-gray', 'dark:bg-artisan-gray-dark');
+                            indicator.classList.add('bg-artisan-black', 'dark:bg-artisan-white');
                             indicator.style.width = '3rem';
                         } else {
-                            indicator.classList.remove('bg-[#1b1b18]', 'dark:bg-[#EDEDEC]');
-                            indicator.classList.add('bg-[#706f6c]', 'dark:bg-[#A1A09A]');
+                            indicator.classList.remove('bg-artisan-black', 'dark:bg-artisan-white');
+                            indicator.classList.add('bg-artisan-gray', 'dark:bg-artisan-gray-dark');
                             indicator.style.width = '1.5rem';
                         }
                     });
