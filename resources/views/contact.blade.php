@@ -16,8 +16,8 @@
                     <span class="text-xs font-semibold text-gray-600 tracking-wide">Open for Commissions</span>
                 </div>
 
-                <h1 class="text-5xl lg:text-7xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-[1.1] tracking-tight">
-                    Let's Craft Something <br/>
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-[1.1] tracking-tight">
+                    Let's Craft Something <br class="hidden sm:block"/>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Extraordinary.</span>
                 </h1>
 
@@ -31,24 +31,24 @@
     <!-- Contact Content Section -->
     <section class="relative py-20 lg:py-32 bg-artisan-bg-light dark:bg-dark-bg">
         <div class="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-16 items-start">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
 
                 <!-- Left Column: Info Cards -->
-                <div class="space-y-8" data-aos="fade-right">
-                    <h2 class="text-3xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-8">
+                <div class="space-y-6 sm:space-y-8" data-aos="fade-right">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-6 sm:mb-8">
                         The Studio
                     </h2>
 
                     <!-- Email Card -->
-                    <div class="group p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
-                        <div class="flex items-start gap-6">
-                            <div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-400">
-                                <i class="fi fi-rr-envelope text-xl"></i>
+                    <div class="group p-6 sm:p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-2xl sm:rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-start gap-4 sm:gap-6">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl sm:rounded-2xl bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-400 flex-shrink-0">
+                                <i class="fi fi-rr-envelope text-lg sm:text-xl"></i>
                             </div>
-                            <div>
-                                <h3 class="font-bold text-lg text-artisan-black dark:text-artisan-white mb-2">Electronic Mail</h3>
-                                <p class="text-gray-500 text-sm mb-2">For inquiries, proposals, and friendly hellos.</p>
-                                <a href="mailto:navadigital931@gmail.com" class="text-artisan-black dark:text-white font-semibold hover:text-purple-600 transition-colors">
+                            <div class="min-w-0 flex-1">
+                                <h3 class="font-bold text-base sm:text-lg text-artisan-black dark:text-artisan-white mb-2">Electronic Mail</h3>
+                                <p class="text-gray-500 text-xs sm:text-sm mb-2">For inquiries, proposals, and friendly hellos.</p>
+                                <a href="mailto:navadigital931@gmail.com" class="text-artisan-black dark:text-white font-semibold hover:text-purple-600 transition-colors text-sm sm:text-base break-all">
                                     navadigital931@gmail.com
                                 </a>
                             </div>
@@ -56,15 +56,15 @@
                     </div>
 
                     <!-- Phone Card -->
-                    <div class="group p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
-                        <div class="flex items-start gap-6">
-                            <div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400">
-                                <i class="fi fi-rr-phone-call text-xl"></i>
+                    <div class="group p-6 sm:p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-2xl sm:rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-start gap-4 sm:gap-6">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl sm:rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400 flex-shrink-0">
+                                <i class="fi fi-rr-phone-call text-lg sm:text-xl"></i>
                             </div>
-                            <div>
-                                <h3 class="font-bold text-lg text-artisan-black dark:text-artisan-white mb-2">Direct Line</h3>
-                                <p class="text-gray-500 text-sm mb-2">Mon-Fri from 9am to 6pm, Western Indonesia Time.</p>
-                                <a href="tel:+6287883611530" class="text-artisan-black dark:text-white font-semibold hover:text-blue-600 transition-colors">
+                            <div class="min-w-0 flex-1">
+                                <h3 class="font-bold text-base sm:text-lg text-artisan-black dark:text-artisan-white mb-2">Direct Line</h3>
+                                <p class="text-gray-500 text-xs sm:text-sm mb-2">Mon-Fri from 9am to 6pm, Western Indonesia Time.</p>
+                                <a href="tel:+6287883611530" class="text-artisan-black dark:text-white font-semibold hover:text-blue-600 transition-colors text-sm sm:text-base">
                                     +62 878-8361-1530
                                 </a>
                             </div>
@@ -75,8 +75,8 @@
                 </div>
 
                 <!-- Right Column: Form -->
-                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-[2.5rem] p-8 lg:p-12 shadow-2xl" data-aos="fade-left">
-                    <h2 class="text-2xl font-bold text-artisan-black dark:text-artisan-white mb-8">Start a Conversation</h2>
+                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-2xl sm:rounded-[2.5rem] p-6 sm:p-8 lg:p-12 shadow-2xl" data-aos="fade-left">
+                    <h2 class="text-xl sm:text-2xl font-bold text-artisan-black dark:text-artisan-white mb-6 sm:mb-8">Start a Conversation</h2>
 
                     @if(session('success'))
                         <div class="mb-8 p-4 bg-green-50/50 border border-green-100 rounded-xl flex items-center gap-3">
