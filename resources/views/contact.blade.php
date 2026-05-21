@@ -1,124 +1,108 @@
 <x-layouts.app
-    title="Contact Us - Nava | Get in Touch with Our Team"
-    description="Contact Nava for technology solutions and professional services. Reach us via email at navadigital931@gmail.com or phone +62 878-8361-1530. Located in Ponorogo, Jawa Timur, Indonesia."
-    keywords="contact Nava, technology consulting contact, software development contact, IT services contact, Nava contact information, Ponorogo"
->
-    <!-- Hero Section -->
-    <section class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[60vh] flex flex-col justify-center bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
-        <!-- Grid Pattern -->
-        <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+    title="Contact - Nava | Start a Conversation"
+    description="Get in touch with Nava. We're based in Ponorogo, Indonesia. Tell us about your project and we'll come back with a clear plan."
+    keywords="contact nava, IT consultancy contact, software development inquiry, Ponorogo Indonesia">
 
-        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
-            <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
-                <!-- Status Pill -->
-                <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-8 bg-white/50 backdrop-blur-md border border-gray-200 rounded-full shadow-sm">
-                    <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-                    <span class="text-xs font-semibold text-gray-600 tracking-wide">Open for Commissions</span>
-                </div>
-
-                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-[1.1] tracking-tight">
-                    Let's Craft Something <br class="hidden sm:block"/>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Extraordinary.</span>
-                </h1>
-
-                <p class="text-lg lg:text-xl text-artisan-gray dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">
-                    Have a vision? We're the artisans who can bring it to life. Reach out today and let's start shaping your digital future.
-                </p>
-            </div>
+    {{-- Page Hero --}}
+    <section class="bg-ink pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <p class="font-sans text-xs text-white/30 uppercase tracking-[0.2em] mb-5">Contact</p>
+            <h1 class="font-serif text-5xl lg:text-7xl italic font-normal text-white leading-[1.08]">
+                Let's talk.
+            </h1>
         </div>
     </section>
 
-    <!-- Contact Content Section -->
-    <section class="relative py-20 lg:py-32 bg-artisan-bg-light dark:bg-dark-bg">
-        <div class="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+    {{-- Contact Section --}}
+    <section class="bg-white py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
-                <!-- Left Column: Info Cards -->
-                <div class="space-y-6 sm:space-y-8" data-aos="fade-right">
-                    <h2 class="text-2xl sm:text-3xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-6 sm:mb-8">
-                        The Studio
+                {{-- Left: Info --}}
+                <div>
+                    <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-5">Find us</p>
+                    <h2 class="font-serif text-3xl lg:text-4xl font-normal text-ink leading-snug mb-10">
+                        Reach out and<br>we'll respond quickly.
                     </h2>
 
-                    <!-- Email Card -->
-                    <div class="group p-6 sm:p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-2xl sm:rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
-                        <div class="flex items-start gap-4 sm:gap-6">
-                            <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl sm:rounded-2xl bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-400 flex-shrink-0">
-                                <i class="fi fi-rr-envelope text-lg sm:text-xl"></i>
-                            </div>
-                            <div class="min-w-0 flex-1">
-                                <h3 class="font-bold text-base sm:text-lg text-artisan-black dark:text-artisan-white mb-2">Electronic Mail</h3>
-                                <p class="text-gray-500 text-xs sm:text-sm mb-2">For inquiries, proposals, and friendly hellos.</p>
-                                <a href="mailto:navadigital931@gmail.com" class="text-artisan-black dark:text-white font-semibold hover:text-purple-600 transition-colors text-sm sm:text-base break-all">
-                                    navadigital931@gmail.com
-                                </a>
-                            </div>
+                    <div class="space-y-10 border-t border-ink/8 pt-10">
+                        <div>
+                            <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-2">Email</p>
+                            <a href="mailto:navadigital931@gmail.com"
+                               class="font-sans text-base text-ink hover:text-ink/60 transition-colors">
+                                navadigital931@gmail.com
+                            </a>
+                        </div>
+                        <div>
+                            <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-2">Phone</p>
+                            <a href="tel:+6287883611530"
+                               class="font-sans text-base text-ink hover:text-ink/60 transition-colors">
+                                +62 878-8361-1530
+                            </a>
+                            <p class="font-sans text-sm text-ink/40 mt-1">Mon–Fri, 9am–6pm WIB</p>
+                        </div>
+                        <div>
+                            <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-2">Location</p>
+                            <p class="font-sans text-base text-ink">Ponorogo, Jawa Timur</p>
+                            <p class="font-sans text-sm text-ink/40">Indonesia</p>
                         </div>
                     </div>
-
-                    <!-- Phone Card -->
-                    <div class="group p-6 sm:p-8 bg-white border border-gray-100 dark:bg-dark-card dark:border-zinc-800 rounded-2xl sm:rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300">
-                        <div class="flex items-start gap-4 sm:gap-6">
-                            <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl sm:rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400 flex-shrink-0">
-                                <i class="fi fi-rr-phone-call text-lg sm:text-xl"></i>
-                            </div>
-                            <div class="min-w-0 flex-1">
-                                <h3 class="font-bold text-base sm:text-lg text-artisan-black dark:text-artisan-white mb-2">Direct Line</h3>
-                                <p class="text-gray-500 text-xs sm:text-sm mb-2">Mon-Fri from 9am to 6pm, Western Indonesia Time.</p>
-                                <a href="tel:+6287883611530" class="text-artisan-black dark:text-white font-semibold hover:text-blue-600 transition-colors text-sm sm:text-base">
-                                    +62 878-8361-1530
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
 
-                <!-- Right Column: Form -->
-                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-2xl sm:rounded-[2.5rem] p-6 sm:p-8 lg:p-12 shadow-2xl" data-aos="fade-left">
-                    <h2 class="text-xl sm:text-2xl font-bold text-artisan-black dark:text-artisan-white mb-6 sm:mb-8">Start a Conversation</h2>
+                {{-- Right: Form --}}
+                <div>
+                    <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-5">Send a message</p>
+                    <h2 class="font-serif text-2xl font-normal text-ink mb-10">Start a conversation</h2>
 
                     @if(session('success'))
-                        <div class="mb-8 p-4 bg-green-50/50 border border-green-100 rounded-xl flex items-center gap-3">
-                            <i class="fi fi-rr-check-circle text-green-600"></i>
-                            <p class="text-sm text-green-800 font-medium">{{ session('success') }}</p>
+                        <div class="mb-8 p-4 border border-ink/15 bg-ink/3">
+                            <p class="font-sans text-sm text-ink/70">{{ session('success') }}</p>
                         </div>
                     @endif
 
-                     <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
+                    <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
                         @csrf
 
                         <div class="grid md:grid-cols-2 gap-6">
-                            <div class="space-y-2">
-                                <label for="name" class="text-sm font-semibold text-gray-700">Name</label>
+                            <div>
+                                <label for="name" class="block font-sans text-xs text-ink/50 uppercase tracking-[0.15em] mb-2">Name</label>
                                 <input type="text" id="name" name="name" required
-                                    class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="John Doe">
+                                    class="w-full px-0 py-3 bg-transparent border-b border-ink/20 focus:border-ink outline-none font-sans text-sm text-ink placeholder:text-ink/25 transition-colors"
+                                    placeholder="Your name">
                             </div>
-                            <div class="space-y-2">
-                                <label for="email" class="text-sm font-semibold text-gray-700">Email</label>
+                            <div>
+                                <label for="email" class="block font-sans text-xs text-ink/50 uppercase tracking-[0.15em] mb-2">Email</label>
                                 <input type="email" id="email" name="email" required
-                                    class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="john@example.com">
+                                    class="w-full px-0 py-3 bg-transparent border-b border-ink/20 focus:border-ink outline-none font-sans text-sm text-ink placeholder:text-ink/25 transition-colors"
+                                    placeholder="your@email.com">
                             </div>
                         </div>
 
-                        <div class="space-y-2">
-                            <label for="subject" class="text-sm font-semibold text-gray-700">Subject</label>
+                        <div>
+                            <label for="subject" class="block font-sans text-xs text-ink/50 uppercase tracking-[0.15em] mb-2">Subject</label>
                             <input type="text" id="subject" name="subject" required
-                                class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none" placeholder="Project Inquiry / General Question">
+                                class="w-full px-0 py-3 bg-transparent border-b border-ink/20 focus:border-ink outline-none font-sans text-sm text-ink placeholder:text-ink/25 transition-colors"
+                                placeholder="What is this about?">
                         </div>
 
-                        <div class="space-y-2">
-                            <label for="message" class="text-sm font-semibold text-gray-700">Message</label>
+                        <div>
+                            <label for="message" class="block font-sans text-xs text-ink/50 uppercase tracking-[0.15em] mb-2">Message</label>
                             <textarea id="message" name="message" rows="5" required
-                                class="w-full px-4 py-3 rounded-xl bg-white/50 border border-gray-200 focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all outline-none resize-none" placeholder="Tell us about your project..."></textarea>
+                                class="w-full px-0 py-3 bg-transparent border-b border-ink/20 focus:border-ink outline-none font-sans text-sm text-ink placeholder:text-ink/25 transition-colors resize-none"
+                                placeholder="Tell us about your project..."></textarea>
                         </div>
 
-                        <button type="submit" class="w-full py-4 bg-artisan-black text-white rounded-xl font-bold text-lg hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
-                            Send Message
-                        </button>
+                        <div class="pt-4">
+                            <button type="submit"
+                                class="inline-flex items-center justify-center px-10 py-4 bg-ink hover:bg-ink/85 text-white font-sans text-sm font-semibold tracking-wide transition-colors duration-200">
+                                Send message
+                            </button>
+                        </div>
                     </form>
                 </div>
+
             </div>
         </div>
     </section>
+
 </x-layouts.app>

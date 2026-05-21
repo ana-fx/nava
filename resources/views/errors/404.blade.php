@@ -1,51 +1,26 @@
 <x-layouts.app title="404 - Page Not Found | Nava"
-    description="The page you are looking for does not exist. Please return to the homepage or contact us if you need assistance.">
-    <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
-        <!-- Grid Pattern -->
-        <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none"></div>
+    description="The page you are looking for does not exist. Return to the homepage.">
 
-        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
-            <div class="max-w-3xl mx-auto text-center">
-
-                <!-- Status Pill -->
-                <div class="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-full shadow-sm" data-aos="fade-down">
-                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-                    <span class="text-sm font-semibold text-artisan-gray dark:text-artisan-gray-dark tracking-wide uppercase">Error 404</span>
-                </div>
-
-                <!-- Main Content -->
-                <div class="relative py-12" data-aos="zoom-out" data-aos-delay="100">
-                    <h1 class="text-[10rem] sm:text-[14rem] lg:text-[16rem] font-bold leading-none tracking-tighter text-white/50 dark:text-white/5 select-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 bg-clip-text text-transparent bg-gradient-to-b from-black/5 to-transparent dark:from-white/5">
-                        404
-                    </h1>
-
-                    <h2 class="text-4xl sm:text-5xl lg:text-7xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-6">
-                        Lost in the <br/>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Digital Void?</span>
-                    </h2>
-
-                    <p class="text-lg lg:text-xl text-artisan-gray dark:text-artisan-gray-dark mb-10 leading-relaxed max-w-xl mx-auto">
-                        The page you are looking for has been moved, deleted, or possibly never existed.
-                    </p>
-
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
-                        <a href="{{ route('home') }}" class="group relative px-8 py-4 bg-artisan-black dark:bg-artisan-white text-white dark:text-artisan-black rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-                            <span class="flex items-center gap-2">
-                                <i class="fi fi-rr-home"></i>
-                                Back to Homepage
-                            </span>
-                        </a>
-                        <a href="{{ route('contact.index') }}" class="group relative px-8 py-4 bg-white/80 dark:bg-white/10 text-artisan-black dark:text-artisan-white backdrop-blur-sm border border-white/50 dark:border-white/10 rounded-full font-bold shadow-sm hover:bg-white dark:hover:bg-white/20 transition-all duration-300">
-                            <span class="flex items-center gap-2">
-                                <i class="fi fi-rr-envelope"></i>
-                                Contact Support
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
+    <section class="bg-ink min-h-screen flex items-center justify-center">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <p class="font-sans text-xs text-white/25 uppercase tracking-[0.2em] mb-10">Error 404</p>
+            <h1 class="font-serif text-6xl lg:text-8xl italic font-normal text-white leading-[1.08] mb-6">
+                Page not found.
+            </h1>
+            <p class="font-sans text-base text-white/45 leading-relaxed mb-14 max-w-md mx-auto">
+                The page you are looking for has been moved, deleted, or possibly never existed.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="{{ route('home') }}"
+                   class="inline-flex items-center justify-center px-8 py-4 bg-white text-ink font-sans text-sm font-semibold tracking-wide hover:bg-white/85 transition-colors duration-200">
+                    Back to home
+                </a>
+                <a href="{{ route('contact.index') }}"
+                   class="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white/60 font-sans text-sm font-semibold tracking-wide hover:text-white hover:border-white/40 transition-colors duration-200">
+                    Contact us
+                </a>
             </div>
         </div>
     </section>
+
 </x-layouts.app>

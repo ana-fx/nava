@@ -1,123 +1,88 @@
-<x-layouts.app title="About Us - Nava | The Digital Atelier"
-    description="Learn more about Nava, an artisan IT consultancy blending technical excellence with creative soul."
-    keywords="about nava, artisan it, digital atelier, software craftsmanship">
-    <!-- Hero Section -->
-    <section
-        class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[60vh] flex flex-col justify-center bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
-        <!-- Grid Pattern -->
-        <div
-            class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none">
-        </div>
+<x-layouts.app title="About - Nava | IT Consultancy"
+    description="Learn about Nava, an IT consultancy based in Ponorogo, Indonesia. We build custom software for businesses that need results."
+    keywords="about nava, IT consultancy, software development, Ponorogo, Indonesia">
 
-        <div class="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
-            <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
-                <div
-                    class="inline-flex items-center gap-2 px-3 py-1.5 mb-8 bg-white/50 backdrop-blur-md border border-gray-200 rounded-full shadow-sm">
-                    <span class="w-1.5 h-1.5 rounded-full bg-purple-500 animate-pulse"></span>
-                    <span class="text-xs font-semibold text-gray-600 tracking-wide">Our Story</span>
-                </div>
-
-                <h1
-                    class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 text-artisan-black dark:text-artisan-white leading-[1.1] tracking-tight">
-                    Crafting the <br class="hidden sm:block" />
-                    <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Unimaginable.</span>
-                </h1>
-
-                <p
-                    class="text-lg lg:text-xl text-artisan-gray dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">
-                    We are a collective of digital artisans, engineers, and visionaries dedicated to building software
-                    that matters.
-                </p>
-            </div>
+    {{-- Page Hero --}}
+    <section class="bg-ink pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <p class="font-sans text-xs text-white/30 uppercase tracking-[0.2em] mb-5">About Us</p>
+            <h1 class="font-serif text-5xl lg:text-7xl italic font-normal text-white leading-[1.08]">
+                A team that takes<br>craft seriously.
+            </h1>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="relative py-20 lg:py-32 bg-artisan-bg-light dark:bg-dark-bg">
-        <div class="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-                <div data-aos="fade-right">
-                    <h2
-                        class="text-2xl sm:text-3xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-4 sm:mb-6">
-                        The Philosophy of Craft
-                    </h2>
-                    <p
-                        class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed mb-4 sm:mb-6 text-base sm:text-lg">
-                        In an era of mass-produced software, we choose to be artisans. We believe that every line of
-                        code is a brushstroke, every interface a canvas, and every user experience a masterpiece waiting
-                        to be revealed.
-                    </p>
-                    <p class="text-artisan-gray dark:text-artisan-gray-dark leading-relaxed text-base sm:text-lg">
-                        Our philosophy is simple: **Precision meets Passion.** We don't just solve problems; we obsess
-                        over the elegance of the solution. From the architecture of the backend to the fluidity of the
-                        frontend, we ensure that quality is woven into the very fabric of our work.
-                    </p>
-                </div>
-                <div class="relative h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl"
-                    data-aos="fade-left">
+    {{-- Mission --}}
+    <section class="bg-white py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <div class="grid lg:grid-cols-2 gap-14 lg:gap-24 items-center">
+                <div class="aspect-[4/3] overflow-hidden bg-ink/5">
                     <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&auto=format&fit=crop"
-                        alt="Team collaborating" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        alt="Team collaborating" class="w-full h-full object-cover grayscale">
+                </div>
+                <div>
+                    <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-5">Our Philosophy</p>
+                    <h2 class="font-serif text-3xl lg:text-4xl font-normal text-ink leading-snug mb-6">
+                        Precision meets purpose.
+                    </h2>
+                    <p class="font-sans text-base text-ink/55 leading-relaxed mb-4">
+                        Nava is an IT consultancy based in Ponorogo, Indonesia. We work with businesses to design and build software that fits their specific needs — no unnecessary complexity, no off-the-shelf shortcuts.
+                    </p>
+                    <p class="font-sans text-base text-ink/55 leading-relaxed">
+                        Every project starts with understanding the problem first. Only then do we write a single line of code. This discipline is what separates work that lasts from work that breaks down.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Values Section -->
-    <section
-        class="relative py-20 lg:py-32 bg-gradient-to-b from-artisan-bg-light via-gradient-mid to-gradient-end dark:from-dark-bg dark:to-zinc-950">
-        <!-- Grid Pattern -->
-        <div
-            class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none">
-        </div>
-
-        <div class="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-12 sm:mb-16" data-aos="fade-up">
-                <h2
-                    class="text-2xl sm:text-3xl lg:text-4xl font-bold text-artisan-black dark:text-artisan-white tracking-tight mb-4">
-                    Core Principles</h2>
-                <p class="text-artisan-gray dark:text-artisan-gray-dark max-w-2xl mx-auto text-sm sm:text-base">The
-                    pillars that uphold our digital atelier.</p>
+    {{-- Values --}}
+    <section class="bg-paper py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <div class="mb-14">
+                <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-4">What guides us</p>
+                <h2 class="font-serif text-4xl lg:text-5xl italic font-normal text-ink">Core principles</h2>
             </div>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
-                <!-- Value 1 -->
-                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="w-14 h-14 bg-purple-50 dark:bg-purple-900/20 rounded-2xl flex items-center justify-center mb-6 text-2xl text-purple-600 dark:text-purple-400">
-                        <i class="fi fi-rr-gem"></i>
+            <div class="divide-y divide-ink/8">
+                <div class="flex gap-10 py-10 items-start">
+                    <span class="font-serif text-4xl font-normal text-ink/15 leading-none flex-shrink-0 w-12">01</span>
+                    <div>
+                        <h3 class="font-serif text-xl font-normal text-ink mb-3">Meticulous detail</h3>
+                        <p class="font-sans text-sm text-ink/50 leading-relaxed max-w-xl">We believe perfection lies in the details others overlook. Every decision — from database schema to button state — is made intentionally.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-artisan-black dark:text-artisan-white mb-3">Meticulous Detail</h3>
-                    <p class="text-artisan-gray dark:text-artisan-gray-dark">We believe perfection lies in the details
-                        others overlook.</p>
                 </div>
-
-                <!-- Value 2 -->
-                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="w-14 h-14 bg-blue-50 dark:bg-blue-900/20 rounded-2xl flex items-center justify-center mb-6 text-2xl text-blue-600 dark:text-blue-400">
-                        <i class="fi fi-rr-bulb"></i>
+                <div class="flex gap-10 py-10 items-start">
+                    <span class="font-serif text-4xl font-normal text-ink/15 leading-none flex-shrink-0 w-12">02</span>
+                    <div>
+                        <h3 class="font-serif text-xl font-normal text-ink mb-3">Engineering with purpose</h3>
+                        <p class="font-sans text-sm text-ink/50 leading-relaxed max-w-xl">Technology is our medium, but solving the real problem is the goal. We avoid over-engineering and resist complexity for its own sake.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-artisan-black dark:text-artisan-white mb-3">Innovative Soul</h3>
-                    <p class="text-artisan-gray dark:text-artisan-gray-dark">Technology is our medium, but creativity is
-                        our fuel.</p>
                 </div>
-
-                <!-- Value 3 -->
-                <div class="bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/50 dark:border-white/10 rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <div
-                        class="w-14 h-14 bg-green-50 dark:bg-green-900/20 rounded-2xl flex items-center justify-center mb-6 text-2xl text-green-600 dark:text-green-400">
-                        <i class="fi fi-rr-users-alt"></i>
+                <div class="flex gap-10 py-10 items-start">
+                    <span class="font-serif text-4xl font-normal text-ink/15 leading-none flex-shrink-0 w-12">03</span>
+                    <div>
+                        <h3 class="font-serif text-xl font-normal text-ink mb-3">Human centric</h3>
+                        <p class="font-sans text-sm text-ink/50 leading-relaxed max-w-xl">We build for people. Every interface, every flow, every interaction is designed to be intuitive and reduce friction for the end user.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-artisan-black dark:text-artisan-white mb-3">Human Centric</h3>
-                    <p class="text-artisan-gray dark:text-artisan-gray-dark">We build for people, creating intuitive and
-                        joyful experiences.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    {{-- CTA --}}
+    <section class="bg-white py-24 lg:py-32">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <div class="border-t border-ink/10 pt-16 pb-16 border-b border-ink/10">
+                <p class="font-sans text-xs text-ink/35 uppercase tracking-[0.2em] mb-8">Work with us</p>
+                <h2 class="font-serif text-4xl lg:text-5xl italic font-normal text-ink leading-tight mb-8">
+                    Ready to start<br>a project?
+                </h2>
+                <a href="{{ route('contact.index') }}" class="inline-flex items-center justify-center px-8 py-4 bg-ink hover:bg-ink/85 text-white font-sans text-sm font-semibold tracking-wide transition-colors duration-200">
+                    Get in touch
+                </a>
+            </div>
+        </div>
+    </section>
+
 </x-layouts.app>
