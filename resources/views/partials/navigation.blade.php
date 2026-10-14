@@ -22,19 +22,19 @@
                     <i class="fi fi-rr-angle-small-down pt-0.5 text-xs transition-transform duration-200 group-hover:rotate-180"></i>
                 </a>
                 <div class="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 w-56">
-                    <div class="bg-ink border border-white/10 p-1">
+                    <div class="bg-ink border border-white/10 p-1 rounded-xl shadow-xl">
                         <a href="{{ route('services') }}#bespoke-engineering"
-                           class="block px-4 py-3 font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
+                           class="block px-4 py-3 rounded-lg font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
                             <span class="font-medium text-white/85 block text-xs tracking-wide mb-0.5">Bespoke Engineering</span>
                             <span class="text-xs text-white/35">Custom software solutions</span>
                         </a>
                         <a href="{{ route('services') }}#strategic-architecture"
-                           class="block px-4 py-3 font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
+                           class="block px-4 py-3 rounded-lg font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
                             <span class="font-medium text-white/85 block text-xs tracking-wide mb-0.5">Strategic Architecture</span>
                             <span class="text-xs text-white/35">Scalable system design</span>
                         </a>
                         <a href="{{ route('services') }}#performance-curation"
-                           class="block px-4 py-3 font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
+                           class="block px-4 py-3 rounded-lg font-sans text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors">
                             <span class="font-medium text-white/85 block text-xs tracking-wide mb-0.5">Performance Curation</span>
                             <span class="text-xs text-white/35">Optimization & maintenance</span>
                         </a>
@@ -51,7 +51,7 @@
         <!-- Right: CTA + Mobile Toggle -->
         <div class="flex items-center gap-4">
             <a href="{{ route('contact.index') }}"
-               class="hidden sm:inline-flex items-center px-4 py-1.5 border border-white/20 hover:border-white/60 font-sans text-xs text-white/60 hover:text-white transition-colors duration-150">
+               class="hidden sm:inline-flex items-center px-4 py-2 rounded-full bg-dribbble-pink hover:bg-dribbble-pink-hover font-sans text-xs font-semibold text-white transition-colors duration-150">
                 Start a project
             </a>
 
@@ -78,21 +78,21 @@
     <!-- Mobile Links -->
     <div class="flex-1 overflow-y-auto px-6 py-10 flex flex-col gap-1">
         <a href="{{ route('home') }}"
-           class="font-serif text-3xl italic font-normal text-white/80 hover:text-white transition-colors py-3 border-b border-white/8">Home</a>
+           class="font-serif text-3xl text-white/80 hover:text-dribbble-pink transition-colors py-3 border-b border-white/8 font-bold tracking-tight">Home</a>
         <a href="{{ route('about') }}"
-           class="font-serif text-3xl italic font-normal text-white/80 hover:text-white transition-colors py-3 border-b border-white/8">About</a>
+           class="font-serif text-3xl text-white/80 hover:text-dribbble-pink transition-colors py-3 border-b border-white/8 font-bold tracking-tight">About</a>
         <a href="{{ route('services') }}"
-           class="font-serif text-3xl italic font-normal text-white/80 hover:text-white transition-colors py-3 border-b border-white/8">Services</a>
+           class="font-serif text-3xl text-white/80 hover:text-dribbble-pink transition-colors py-3 border-b border-white/8 font-bold tracking-tight">Services</a>
         <a href="{{ route('portfolio') }}"
-           class="font-serif text-3xl italic font-normal text-white/80 hover:text-white transition-colors py-3 border-b border-white/8">Works</a>
+           class="font-serif text-3xl text-white/80 hover:text-dribbble-pink transition-colors py-3 border-b border-white/8 font-bold tracking-tight">Works</a>
         <a href="{{ route('contact.index') }}"
-           class="font-serif text-3xl italic font-normal text-white/80 hover:text-white transition-colors py-3 border-b border-white/8">Contact</a>
+           class="font-serif text-3xl text-white/80 hover:text-dribbble-pink transition-colors py-3 border-b border-white/8 font-bold tracking-tight">Contact</a>
     </div>
 
     <!-- Mobile Footer -->
     <div class="px-6 py-6 border-t border-white/8">
         <a href="{{ route('contact.index') }}"
-           class="inline-flex items-center justify-center w-full py-3.5 border border-white/20 font-sans text-sm text-white/60 hover:border-white/50 hover:text-white transition-colors">
+           class="inline-flex items-center justify-center w-full py-3.5 rounded-full bg-dribbble-pink hover:bg-dribbble-pink-hover font-sans text-sm font-semibold text-white transition-colors">
             Start a project →
         </a>
     </div>

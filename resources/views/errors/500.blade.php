@@ -3,8 +3,8 @@
 
     <section class="bg-ink min-h-screen flex items-center justify-center">
         <div class="max-w-2xl mx-auto px-6 text-center">
-            <p class="font-sans text-xs text-white/25 uppercase tracking-[0.2em] mb-10">Error 500</p>
-            <h1 class="font-serif text-6xl lg:text-8xl italic font-normal text-white leading-[1.08] mb-6">
+            <p class="font-sans text-xs uppercase tracking-[0.2em] mb-10 text-dribbble-pink font-semibold">Error 500</p>
+            <h1 class="font-serif text-6xl lg:text-8xl text-white leading-[1.08] mb-6 font-bold tracking-tight">
                 Something broke.
             </h1>
             <p class="font-sans text-base text-white/45 leading-relaxed mb-14 max-w-md mx-auto">
@@ -12,11 +12,11 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="{{ url()->previous() }}"
-                   class="inline-flex items-center justify-center px-8 py-4 bg-white text-ink font-sans text-sm font-semibold tracking-wide hover:bg-white/85 transition-colors duration-200">
+                   class="inline-flex items-center justify-center px-8 py-4 bg-dribbble-pink text-white font-sans text-sm font-semibold hover:bg-dribbble-pink-hover transition-colors duration-200 rounded-full">
                     Try again
                 </a>
                 <a href="{{ route('home') }}"
-                   class="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white/60 font-sans text-sm font-semibold tracking-wide hover:text-white hover:border-white/40 transition-colors duration-200">
+                   class="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white/60 font-sans text-sm font-semibold hover:text-white hover:border-white/40 transition-colors duration-200 rounded-full">
                     Back to home
                 </a>
             </div>

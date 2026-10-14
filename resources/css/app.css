@@ -9,8 +9,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Mona Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* Heading role — same family as body, Dribbble style */
+    --font-serif: 'Mona Sans', ui-sans-serif, system-ui, sans-serif;
 
     --color-zinc-50: #fafafa;
     --color-zinc-100: #f5f5f5;
@@ -25,12 +26,12 @@
     --color-zinc-950: #0a0a0a;
 
     /* Artisan Theme Colors */
-    --color-artisan-black: #1b1b18;
+    --color-artisan-black: #0d0c22;
     --color-artisan-white: #EDEDEC;
-    --color-artisan-gray: #706f6c;
+    --color-artisan-gray: #6e6d7a;
     --color-artisan-gray-dark: #A1A09A;
-    --color-artisan-bg-light: #FDFDFC;
-    --color-artisan-black-soft: #1C1C1A;
+    --color-artisan-bg-light: #ffffff;
+    --color-artisan-black-soft: #0d0c22;
     --color-artisan-white-soft: #eeeeec;
 
     /* Gradients */
@@ -48,9 +49,12 @@
     --color-accent-content: var(--color-neutral-800);
     --color-accent-foreground: var(--color-white);
 
-    /* 3-color editorial palette */
-    --color-ink: #111111;
-    --color-paper: #F5F4F1;
+    /* Dribbble-inspired palette */
+    --color-ink: #0d0c22;
+    --color-paper: #f8f7f4;
+    --color-dribbble-pink: #ea4c89;
+    --color-dribbble-pink-hover: #f082ac;
+    --color-dribbble-gray: #6e6d7a;
 }
 
 @layer theme {
@@ -63,9 +67,14 @@
 
 @layer base {
     body {
-        font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+        font-family: var(--font-sans);
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+        background-color: var(--color-dribbble-pink);
+        color: var(--color-white);
     }
 
     *,

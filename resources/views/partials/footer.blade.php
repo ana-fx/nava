@@ -7,7 +7,7 @@
                 <a href="/" class="block mb-6">
                     <img src="/logo-long-white.png" alt="Nava" class="h-7 opacity-85 hover:opacity-100 transition-opacity">
                 </a>
-                <p class="font-serif text-2xl italic font-normal text-white/80 leading-snug mb-6 max-w-xs">
+                <p class="font-serif text-2xl text-white/80 leading-snug mb-6 max-w-xs font-bold">
                     Building software<br>that solves problems.
                 </p>
                 <p class="font-sans text-sm text-white/35 leading-relaxed max-w-sm">
@@ -18,23 +18,23 @@
             <!-- Links -->
             <div class="grid grid-cols-2 gap-8">
                 <div>
-                    <p class="font-sans text-xs text-white/25 uppercase tracking-[0.2em] mb-5">Pages</p>
+                    <p class="font-sans text-xs uppercase tracking-[0.2em] mb-5 text-dribbble-pink font-semibold">Pages</p>
                     <ul class="space-y-3">
-                        <li><a href="{{ route('home') }}" class="font-sans text-sm text-white/45 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="{{ route('about') }}" class="font-sans text-sm text-white/45 hover:text-white transition-colors">About</a></li>
-                        <li><a href="{{ route('services') }}" class="font-sans text-sm text-white/45 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="{{ route('portfolio') }}" class="font-sans text-sm text-white/45 hover:text-white transition-colors">Works</a></li>
-                        <li><a href="{{ route('contact.index') }}" class="font-sans text-sm text-white/45 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="{{ route('home') }}" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">Home</a></li>
+                        <li><a href="{{ route('about') }}" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">About</a></li>
+                        <li><a href="{{ route('services') }}" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">Services</a></li>
+                        <li><a href="{{ route('portfolio') }}" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">Works</a></li>
+                        <li><a href="{{ route('contact.index') }}" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">Contact</a></li>
                     </ul>
                 </div>
                 <div>
-                    <p class="font-sans text-xs text-white/25 uppercase tracking-[0.2em] mb-5">Contact</p>
+                    <p class="font-sans text-xs uppercase tracking-[0.2em] mb-5 text-dribbble-pink font-semibold">Contact</p>
                     <ul class="space-y-3">
                         <li>
-                            <a href="mailto:navadigital931@gmail.com" class="font-sans text-sm text-white/45 hover:text-white transition-colors break-all">navadigital931@gmail.com</a>
+                            <a href="mailto:navadigital931@gmail.com" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors break-all">navadigital931@gmail.com</a>
                         </li>
                         <li>
-                            <a href="tel:+6287883611530" class="font-sans text-sm text-white/45 hover:text-white transition-colors">+62 878-8361-1530</a>
+                            <a href="tel:+6287883611530" class="font-sans text-sm text-white/45 hover:text-dribbble-pink transition-colors">+62 878-8361-1530</a>
                         </li>
                         <li>
                             <span class="font-sans text-sm text-white/35">Ponorogo, Jawa Timur</span>
